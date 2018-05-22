@@ -6,6 +6,7 @@ import OtherProjects from '../components/OtherProjects';
 import Experience from '../components/Experience';
 import Github from '../components/Github';
 import InfoAside from '../components/InfoAside';
+import SkillsAside from '../components/SkillsAside';
 
 const DashboardPage = () =>(
     <div>
@@ -16,6 +17,7 @@ const DashboardPage = () =>(
         <Experience/>
         <Github/>
         <InfoAside/>
+        <SkillsAside/>
     </div>
 );
 export default DashboardPage;
