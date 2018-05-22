@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogAside Section should render correctly 1`] = `
+<aside
+  className="blog aside section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Latest Blog Posts
+    </h2>
+    <p>
+      You can use Sascha Depold's 
+      <a
+        href="https://github.com/sdepold/jquery-rss"
+        target="_blank"
+      >
+        jQuery RSS plugin
+      </a>
+       to pull in your blog post feeds.
+    </p>
+    <div
+      className="content"
+      id="rss-feeds"
+    />
+  </div>
+</aside>
+`;

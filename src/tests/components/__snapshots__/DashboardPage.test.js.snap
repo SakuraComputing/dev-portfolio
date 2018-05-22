@@ -13,5 +13,6 @@ exports[`should render Expense dashboard page correctly 1`] = `
   <TestimonialsAside />
   <EducationAside />
   <LanguagesAside />
+  <BlogAside />
 </div>
 `;

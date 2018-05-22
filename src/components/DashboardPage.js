@@ -10,6 +10,7 @@ import SkillsAside from '../components/SkillsAside';
 import TestimonialsAside from '../components/TestimonialsAside';
 import EducationAside from '../components/EducationAside';
 import LanguagesAside from '../components/LanguagesAside';
+import BlogAside from '../components/BlogAside';
 
 const DashboardPage = () =>(
     <div>
@@ -24,6 +25,7 @@ const DashboardPage = () =>(
         <TestimonialsAside/>
         <EducationAside/>
         <LanguagesAside/>
+        <BlogAside/>
     </div>
 );
 export default DashboardPage;
