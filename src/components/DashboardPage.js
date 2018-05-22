@@ -13,6 +13,7 @@ import LanguagesAside from '../components/LanguagesAside';
 import BlogAside from '../components/BlogAside';
 import MusicAside from '../components/MusicAside';
 import ConferenceAside from '../components/ConferenceAside';
+import CreditsAside from '../components/CreditsAside';
 
 const DashboardPage = () =>(
     <div>
@@ -30,6 +31,7 @@ const DashboardPage = () =>(
         <BlogAside/>
         <MusicAside/>
         <ConferenceAside/>
+        <CreditsAside/>
     </div>
 );
 export default DashboardPage;
