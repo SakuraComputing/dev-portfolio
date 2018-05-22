@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConferenceAside Section should render correctly 1`] = `
+<aside
+  className="list conferences aside section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Conferences
+    </h2>
+    <div
+      className="content"
+    >
+      <ul
+        className="list-unstyled"
+      >
+        <li>
+          <i
+            className="fa fa-calendar"
+          />
+           
+          <a
+            href="https://developer.apple.com/wwdc/"
+            target="_blank"
+          >
+            WWDC 2014
+          </a>
+           (San Francisco)
+        </li>
+        <li>
+          <i
+            className="fa fa-calendar"
+          />
+           
+          <a
+            href="http://hive.aigaseattle.org/"
+          >
+            Hive
+          </a>
+           (Seattle)
+        </li>
+      </ul>
+    </div>
+  </div>
+</aside>
+`;
