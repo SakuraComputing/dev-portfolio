@@ -11,6 +11,7 @@ import TestimonialsAside from '../components/TestimonialsAside';
 import EducationAside from '../components/EducationAside';
 import LanguagesAside from '../components/LanguagesAside';
 import BlogAside from '../components/BlogAside';
+import MusicAside from '../components/MusicAside';
 
 const DashboardPage = () =>(
     <div>
@@ -26,6 +27,7 @@ const DashboardPage = () =>(
         <EducationAside/>
         <LanguagesAside/>
         <BlogAside/>
+        <MusicAside/>
     </div>
 );
 export default DashboardPage;

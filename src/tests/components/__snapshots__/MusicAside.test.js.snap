@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicAside Section should render correctly 1`] = `
+<aside
+  className="list music aside section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Favourite coding music
+    </h2>
+    <div
+      className="content"
+    >
+      <ul
+        className="list-unstyled"
+      >
+        <li>
+          <i
+            className="fa fa-headphones"
+          />
+           
+          <a
+            href="#"
+          >
+            Etiam hendrerit urna nunc
+          </a>
+        </li>
+        <li>
+          <i
+            className="fa fa-headphones"
+          />
+           
+          <a
+            href="#"
+          >
+            Ut sollicitudin in mauris non auctor
+          </a>
+        </li>
+        <li>
+          <i
+            className="fa fa-headphones"
+          />
+           
+          <a
+            href="#"
+          >
+            Etiam hendrerit urna nunc
+          </a>
+        </li>
+        <li>
+          <i
+            className="fa fa-headphones"
+          />
+           
+          <a
+            href="#"
+          >
+            Duis et felis bibendum
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</aside>
+`;
