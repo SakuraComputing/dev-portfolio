@@ -1,13 +1,16 @@
-# Boilerplate Application
+# Developer Portfolio Application
 
-Boilerplate setup using React JS
+React JS /Webpack
 
-This is project has been written in React JS, using Webpack and Babel. 
+```aidl
+yarn install
+```
 
-This project includes React-Redux, React-Router and has been tested using Enzyme and Jest
+##Testing
 
-It uses a Firebase web based database.
+TDD approach adopted. To run the unit tests run the following
 
-The styling has been carried out using Sass.
-
+```aidl
+yarn run test
+```
 
