@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Github Section should render correctly 1`] = `
+<section
+  className="github section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      My GitHub
+    </h2>
+    <p>
+      You can embed your GitHub contribution graph calendar using IonicaBizau's 
+      <a
+        href="https://github.com/IonicaBizau/github-calendar"
+        target="_blank"
+      >
+        GitHub Calendar
+      </a>
+       widget.
+      <div
+        className="github-graph"
+        id="github-graph"
+      />
+      <p>
+        You can also embed your GitHub activities using Casey Scarborough's 
+        <a
+          href="http://caseyscarborough.com/projects/github-activity/"
+          target="_blank"
+        >
+          GitHub Activity Stream
+        </a>
+         widget.
+      </p>
+      <div
+        className="ghfeed"
+        id="ghfeed"
+      />
+    </p>
+  </div>
+</section>
+`;

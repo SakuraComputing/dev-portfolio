@@ -4,6 +4,8 @@ import About from '../components/About';
 import LatestProject from '../components/LatestProject';
 import OtherProjects from '../components/OtherProjects';
 import Experience from '../components/Experience';
+import Github from '../components/Github';
+import InfoAside from '../components/InfoAside';
 
 const DashboardPage = () =>(
     <div>
@@ -12,6 +14,8 @@ const DashboardPage = () =>(
         <LatestProject/>
         <OtherProjects/>
         <Experience/>
+        <Github/>
+        <InfoAside/>
     </div>
 );
 export default DashboardPage;
