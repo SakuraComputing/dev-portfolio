@@ -8,6 +8,7 @@ import Github from '../components/Github';
 import InfoAside from '../components/InfoAside';
 import SkillsAside from '../components/SkillsAside';
 import TestimonialsAside from '../components/TestimonialsAside';
+import EducationAside from '../components/EducationAside';
 
 const DashboardPage = () =>(
     <div>
@@ -20,6 +21,7 @@ const DashboardPage = () =>(
         <InfoAside/>
         <SkillsAside/>
         <TestimonialsAside/>
+        <EducationAside/>
     </div>
 );
 export default DashboardPage;
