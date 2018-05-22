@@ -14,6 +14,7 @@ import BlogAside from '../components/BlogAside';
 import MusicAside from '../components/MusicAside';
 import ConferenceAside from '../components/ConferenceAside';
 import CreditsAside from '../components/CreditsAside';
+import Footer from '../components/Footer';
 
 const DashboardPage = () =>(
     <div>
@@ -32,6 +33,7 @@ const DashboardPage = () =>(
         <MusicAside/>
         <ConferenceAside/>
         <CreditsAside/>
+        <Footer/>
     </div>
 );
 export default DashboardPage;

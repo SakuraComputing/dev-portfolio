@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Section should render correctly 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="container text-center"
+  >
+    <small
+      className="copyright"
+    >
+      Designed with 
+      <i
+        className="fa fa-heart"
+      />
+       by 
+      <a
+        href="http://themes.3rdwavemedia.com"
+        target="_blank"
+      >
+        Xiaoying Riley
+      </a>
+       for developers
+    </small>
+  </div>
+</footer>
+`;
