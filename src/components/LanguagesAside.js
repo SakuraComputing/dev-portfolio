@@ -13,10 +13,9 @@ export const LanguagesAside = () => (
                             className="fa fa-star"></i> <i className="fa fa-star"></i> </span>
                     </li>
                     <li className="item">
-                        <span className="title"><strong>Spanish:</strong></span>
+                        <span className="title"><strong>Japanese:</strong></span>
                         <span className="level">Professional Proficiency <br className="visible-sm visible-xs"/><i
-                            className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i
-                            className="fa fa-star-half"></i></span>
+                            className="fa fa-star"></i> <i className="fa fa-star"></i></span>
                     </li>
                 </ul>
             </div>

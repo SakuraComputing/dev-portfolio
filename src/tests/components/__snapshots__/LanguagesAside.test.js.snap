@@ -64,7 +64,7 @@ exports[`LanguagesAside Section should render correctly 1`] = `
             className="title"
           >
             <strong>
-              Spanish:
+              Japanese:
             </strong>
           </span>
           <span
@@ -80,14 +80,6 @@ exports[`LanguagesAside Section should render correctly 1`] = `
              
             <i
               className="fa fa-star"
-            />
-             
-            <i
-              className="fa fa-star"
-            />
-             
-            <i
-              className="fa fa-star-half"
             />
           </span>
         </li>

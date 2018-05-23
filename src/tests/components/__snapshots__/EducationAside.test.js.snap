@@ -24,16 +24,16 @@ exports[`EducationAside Section should render correctly 1`] = `
           <i
             className="fa fa-graduation-cap"
           />
-           BSc Psychology and Computer Science
+           BSc Psychology
         </h3>
         <h4
           className="university"
         >
-          University College London 
+          Leeds University
           <span
             className="year"
           >
-            (2011-2012)
+            (1989-1991)
           </span>
         </h4>
       </div>
