@@ -1,6 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
+const profile = require('./routes/api/profile');
+
 const app = express();
 
 //DB Config
@@ -13,6 +15,9 @@ mongoose
     .catch(err => console.log(err));
 
 app.get('/', (req, res) => res.send('Hello World!'));
+
+// Use routes
+app.use('/api/profiles', profile);
 
 const port = process.env.PORT || 5000;
 
