@@ -27,6 +27,8 @@ const DashboardPage = () =>(
                     <OtherProjects/>
                     <Experience/>
                     <Github/>
+                </div>
+                <div class="secondary col-md-4 col-sm-12 col-xs-12">
                     <InfoAside/>
                     <SkillsAside/>
                     <TestimonialsAside/>
@@ -36,10 +38,10 @@ const DashboardPage = () =>(
                     <MusicAside/>
                     <ConferenceAside/>
                     <CreditsAside/>
-                    <Footer/>
                 </div>
             </div>
         </div>
+        <Footer/>
     </body>
 );
 export default DashboardPage;
