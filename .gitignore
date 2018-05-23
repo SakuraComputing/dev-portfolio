@@ -5,5 +5,8 @@ node_modules/*
 yarn.lock
 public/dist
 coverage/
+config/*
+
+
 .env.test
 .env.development
