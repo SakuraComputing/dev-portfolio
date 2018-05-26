@@ -6,8 +6,8 @@ export const About = () => (
         <div className="section-inner">
             <h2 className="heading">About Me</h2>
             <div className="content">
-                <p>Write a brief intro about yourself.</p>
-                <p>It's a good idea to include your personal interests and hobbies as well.</p>
+                <p>An Experienceed Front End web developer specialising in Jvascript.</p>
+                <p>Keen Technologist.</p>
             </div>
         </div>
     </section>

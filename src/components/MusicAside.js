@@ -6,10 +6,10 @@ export const MusicAside = () => (
             <h2 className="heading">Favourite coding music</h2>
             <div className="content">
                 <ul className="list-unstyled">
-                    <li><i className="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                    <li><i className="fa fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
-                    <li><i className="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                    <li><i className="fa fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
+                    <li><i className="fa fa-headphones"></i> <a href="#">Joe Hisashi Kikujiro's Last Summer</a></li>
+                    <li><i className="fa fa-headphones"></i> <a href="#">PJ Harvey Is this Love?</a></li>
+                    <li><i className="fa fa-headphones"></i> <a href="#">JJ Cale Fate of a Fool</a></li>
+                    <li><i className="fa fa-headphones"></i> <a href="#">Tone Loc Funky Cold Medina</a></li>
                 </ul>
             </div>
         </div>

@@ -6,6 +6,7 @@ yarn.lock
 public/dist
 coverage/
 config/*
+.nyc_output/
 
 
 .env.test

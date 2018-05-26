@@ -1,9 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const bodyParser = require('body-parser');
 
 const profile = require('./routes/api/profile');
 
 const app = express();
+
+// Body Parser Middleware
+app.use(bodyParser.urlencoded({ extended: false}));
+app.use(bodyParser.json());
 
 //DB Config
 const db = require('./config/keys').mongoURI;
@@ -14,10 +19,8 @@ mongoose
     .then(() => console.log('Mongo DB connected'))
     .catch(err => console.log(err));
 
-app.get('/', (req, res) => res.send('Hello World!'));
-
 // Use routes
-app.use('/api/profiles', profile);
+app.use('/api/profile', profile);
 
 const port = process.env.PORT || 5000;
 
