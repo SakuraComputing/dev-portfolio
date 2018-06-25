@@ -17,7 +17,7 @@ import CreditsAside from '../components/CreditsAside';
 import Footer from '../components/Footer';
 
 const LandingPage = () =>(
-    <body>
+    <div>
         <Header />
         <div className="container sections-wrapper">
             <div className="row">
@@ -28,7 +28,7 @@ const LandingPage = () =>(
                     <Experience/>
                     <Github/>
                 </div>
-                <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                <div className="secondary col-md-4 col-sm-12 col-xs-12">
                     <InfoAside/>
                     <SkillsAside/>
                     <TestimonialsAside/>
@@ -42,6 +42,6 @@ const LandingPage = () =>(
             </div>
         </div>
         <Footer/>
-    </body>
+    </div>
 );
 export default LandingPage;
