@@ -16,7 +16,7 @@ import ConferenceAside from '../components/ConferenceAside';
 import CreditsAside from '../components/CreditsAside';
 import Footer from '../components/Footer';
 
-const DashboardPage = () =>(
+const LandingPage = () =>(
     <body>
         <Header />
         <div className="container sections-wrapper">
@@ -44,4 +44,4 @@ const DashboardPage = () =>(
         <Footer/>
     </body>
 );
-export default DashboardPage;
+export default LandingPage;

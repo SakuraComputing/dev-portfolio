@@ -16,10 +16,10 @@ exports[`About Section should render correctly 1`] = `
       className="content"
     >
       <p>
-        Write a brief intro about yourself.
+        An Experienceed Front End web developer specialising in Jvascript.
       </p>
       <p>
-        It's a good idea to include your personal interests and hobbies as well.
+        Keen Technologist.
       </p>
     </div>
   </div>

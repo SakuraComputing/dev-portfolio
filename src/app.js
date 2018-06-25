@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import DashBoardPage from './components/DashboardPage';
+import DashBoardPage from './components/LandingPage';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 

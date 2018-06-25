@@ -26,7 +26,7 @@ exports[`MusicAside Section should render correctly 1`] = `
           <a
             href="#"
           >
-            Etiam hendrerit urna nunc
+            Joe Hisashi Kikujiro's Last Summer
           </a>
         </li>
         <li>
@@ -37,7 +37,7 @@ exports[`MusicAside Section should render correctly 1`] = `
           <a
             href="#"
           >
-            Ut sollicitudin in mauris non auctor
+            PJ Harvey Is this Love?
           </a>
         </li>
         <li>
@@ -48,7 +48,7 @@ exports[`MusicAside Section should render correctly 1`] = `
           <a
             href="#"
           >
-            Etiam hendrerit urna nunc
+            JJ Cale Fate of a Fool
           </a>
         </li>
         <li>
@@ -59,7 +59,7 @@ exports[`MusicAside Section should render correctly 1`] = `
           <a
             href="#"
           >
-            Duis et felis bibendum
+            Tone Loc Funky Cold Medina
           </a>
         </li>
       </ul>
