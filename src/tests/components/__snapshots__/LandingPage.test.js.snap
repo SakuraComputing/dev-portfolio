@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Landing Page should render Expense dashboard page correctly 1`] = `
+<div>
+  <Header />
+  <div
+    className="container sections-wrapper"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="primary col-md-8 col-sm-12 col-xs-12"
+      >
+        <About />
+        <LatestProject />
+        <OtherProjects />
+        <Experience />
+        <Github />
+      </div>
+      <div
+        className="secondary col-md-4 col-sm-12 col-xs-12"
+      >
+        <InfoAside />
+        <SkillsAside />
+        <TestimonialsAside />
+        <EducationAside />
+        <LanguagesAside />
+        <BlogAside />
+        <MusicAside />
+        <ConferenceAside />
+        <CreditsAside />
+      </div>
+    </div>
+  </div>
+  <Footer />
+</div>
+`;

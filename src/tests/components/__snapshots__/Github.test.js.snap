@@ -12,7 +12,7 @@ exports[`Github Section should render correctly 1`] = `
     >
       My GitHub
     </h2>
-    <p>
+    <div>
       You can embed your GitHub contribution graph calendar using IonicaBizau's 
       <a
         href="https://github.com/IonicaBizau/github-calendar"
@@ -25,8 +25,8 @@ exports[`Github Section should render correctly 1`] = `
         className="github-graph"
         id="github-graph"
       />
-      <p>
-        You can also embed your GitHub activities using Casey Scarborough's 
+      <div>
+        You can also embed your GitHub activities using 
         <a
           href="http://caseyscarborough.com/projects/github-activity/"
           target="_blank"
@@ -34,12 +34,12 @@ exports[`Github Section should render correctly 1`] = `
           GitHub Activity Stream
         </a>
          widget.
-      </p>
+      </div>
       <div
         className="ghfeed"
         id="ghfeed"
       />
-    </p>
+    </div>
   </div>
 </section>
 `;

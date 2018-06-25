@@ -11,7 +11,7 @@ export const Github = () => (
 
                 </div>
 
-                <div>You can also embed your GitHub activities using Casey Scarborough's <a
+                <div>You can also embed your GitHub activities using <a
                     href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity
                     Stream</a> widget.
                 </div>
