@@ -36,7 +36,13 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
       <div
         className="primary col-md-8 col-sm-12 col-xs-12"
       >
-        <About />
+        <About
+          about={
+            Object {
+              "text": "Front end developer with over twnety years of experience in software delivery.  Specialising in ReactJS but also experience in vanilla javascript and other MVC frameworks such as Angular. Take both TDD approaches and AB Testing to coding",
+            }
+          }
+        />
         <LatestProject />
         <OtherProjects />
         <Experience />
@@ -45,7 +51,15 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
       <div
         className="secondary col-md-4 col-sm-12 col-xs-12"
       >
-        <InfoAside />
+        <InfoAside
+          infoaside={
+            Object {
+              "email": "ewan.bauld@gmail.com",
+              "location": "Manchester, UK",
+              "website": "www.ewan.bauld.com",
+            }
+          }
+        />
         <SkillsAside />
         <TestimonialsAside />
         <EducationAside />

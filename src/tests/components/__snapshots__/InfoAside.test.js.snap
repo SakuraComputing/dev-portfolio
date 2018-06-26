@@ -27,7 +27,7 @@ exports[`InfoAside Section should render correctly 1`] = `
           >
             Location:
           </span>
-          San Francisco, US
+          Manc
         </li>
         <li>
           <i
@@ -41,7 +41,7 @@ exports[`InfoAside Section should render correctly 1`] = `
           <a
             href="#"
           >
-            jameslee@website.com
+            a@e.gmail.com
           </a>
         </li>
         <li>
@@ -56,7 +56,7 @@ exports[`InfoAside Section should render correctly 1`] = `
           <a
             href="#"
           >
-            http://www.website.com
+            www.test.com
           </a>
         </li>
       </ul>
