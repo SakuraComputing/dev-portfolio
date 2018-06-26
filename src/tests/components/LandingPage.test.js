@@ -17,6 +17,7 @@ describe('Landing Page', () => {
         expect(toJSON(wrapper)).toMatchSnapshot();
     });
     it('should read the profile json file into state', () => {
+
         // const profileState = {
         //     name: 'test'
         // };
