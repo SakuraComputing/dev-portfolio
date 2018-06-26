@@ -31,7 +31,6 @@ class LandingPage  extends React.Component {
 
     render() {
         const { header } = this.state;
-        console.log(header);
 
         return (
             <div>

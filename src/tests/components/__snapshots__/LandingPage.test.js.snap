@@ -6,6 +6,20 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
     header={
       Object {
         "name": "Ewan Bauld",
+        "social": Object {
+          "github": Object {
+            "url": "https://github.com/SakuraComputing",
+          },
+          "googleplus": Object {
+            "url": "",
+          },
+          "linkedin": Object {
+            "url": "https://www.linkedin.com/in/ewan-bauld-8887a337/",
+          },
+          "twitter": Object {
+            "url": "",
+          },
+        },
         "title": "Senior Web Developer",
       }
     }

@@ -1,6 +1,20 @@
 {
-  "header": {
+  "header":{
     "name": "Ewan Bauld",
-    "title": "Senior Web Developer"
+    "title": "Senior Web Developer",
+    "social":{
+      "twitter":{
+        "url": ""
+      },
+      "googleplus":{
+        "url": ""
+      },
+      "linkedin":{
+        "url": "https://www.linkedin.com/in/ewan-bauld-8887a337/"
+      },
+      "github":{
+        "url": "https://github.com/SakuraComputing"
+      }
+    }
   }
 }
