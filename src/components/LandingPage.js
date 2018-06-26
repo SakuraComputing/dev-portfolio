@@ -30,7 +30,7 @@ class LandingPage  extends React.Component {
     }
 
     render() {
-        const { header } = this.state;
+        const { header, about } = this.state;
 
         return (
             <div>
@@ -38,7 +38,7 @@ class LandingPage  extends React.Component {
                 <div className="container sections-wrapper">
                     <div className="row">
                         <div className="primary col-md-8 col-sm-12 col-xs-12">
-                            <About/>
+                            <About about={about} />
                             <LatestProject/>
                             <OtherProjects/>
                             <Experience/>

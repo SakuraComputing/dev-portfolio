@@ -19,5 +19,8 @@
         "url": ""
       }
     }
+  },
+  "about": {
+    "text": "Front end developer with over twnety years of experience in software delivery.  Specialising in ReactJS but also experience in vanilla javascript and other MVC frameworks such as Angular. Take both TDD approaches and AB Testing to coding"
   }
 }

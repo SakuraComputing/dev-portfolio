@@ -16,10 +16,7 @@ exports[`About Section should render correctly 1`] = `
       className="content"
     >
       <p>
-        An Experienceed Front End web developer specialising in Jvascript.
-      </p>
-      <p>
-        Keen Technologist.
+        Test Text
       </p>
     </div>
   </div>

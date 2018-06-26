@@ -4,7 +4,10 @@ import About from '../../components/About';
 
 describe('About Section', () => {
    it('should render correctly', () => {
-       const wrapper = shallow(<About />);
+       const about = {
+           text: "Test Text"
+       };
+       const wrapper = shallow(<About about={about} />);
        expect(wrapper).toMatchSnapshot();
    });
 });
