@@ -16,32 +16,44 @@ import ConferenceAside from '../components/ConferenceAside';
 import CreditsAside from '../components/CreditsAside';
 import Footer from '../components/Footer';
 
-const LandingPage = () =>(
-    <div>
-        <Header />
-        <div className="container sections-wrapper">
-            <div className="row">
-                <div className="primary col-md-8 col-sm-12 col-xs-12">
-                    <About/>
-                    <LatestProject/>
-                    <OtherProjects/>
-                    <Experience/>
-                    <Github/>
+class LandingPage  extends React.Component {
+
+    constructor(props) {
+        super(props);
+         this.state = {};
+    }
+
+
+
+    render() {
+        return (
+            <div>
+                <Header />
+                <div className="container sections-wrapper">
+                    <div className="row">
+                        <div className="primary col-md-8 col-sm-12 col-xs-12">
+                            <About/>
+                            <LatestProject/>
+                            <OtherProjects/>
+                            <Experience/>
+                            <Github/>
+                        </div>
+                        <div className="secondary col-md-4 col-sm-12 col-xs-12">
+                            <InfoAside/>
+                            <SkillsAside/>
+                            <TestimonialsAside/>
+                            <EducationAside/>
+                            <LanguagesAside/>
+                            <BlogAside/>
+                            <MusicAside/>
+                            <ConferenceAside/>
+                            <CreditsAside/>
+                        </div>
+                    </div>
                 </div>
-                <div className="secondary col-md-4 col-sm-12 col-xs-12">
-                    <InfoAside/>
-                    <SkillsAside/>
-                    <TestimonialsAside/>
-                    <EducationAside/>
-                    <LanguagesAside/>
-                    <BlogAside/>
-                    <MusicAside/>
-                    <ConferenceAside/>
-                    <CreditsAside/>
-                </div>
+                <Footer/>
             </div>
-        </div>
-        <Footer/>
-    </div>
-);
+        )
+    }
+};
 export default LandingPage;
