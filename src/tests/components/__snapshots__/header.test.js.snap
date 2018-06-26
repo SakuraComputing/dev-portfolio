@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render header correctly 1`] = `
+exports[`Header Component should render header correctly 1`] = `
 <header
   className="header"
 >
@@ -18,13 +18,11 @@ exports[`should render header correctly 1`] = `
       <h1
         className="name"
       >
-        Ewan Bauld
+        mockConstructor
       </h1>
       <h2
         className="desc"
-      >
-        Web App Developer
-      </h2>
+      />
       <ul
         className="social list-inline"
       >

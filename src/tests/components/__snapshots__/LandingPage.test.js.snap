@@ -2,7 +2,14 @@
 
 exports[`Landing Page should render Expense dashboard page correctly 1`] = `
 <div>
-  <Header />
+  <Header
+    header={
+      Object {
+        "name": "Ewan Bauld",
+        "title": "Senior Web Developer",
+      }
+    }
+  />
   <div
     className="container sections-wrapper"
   >

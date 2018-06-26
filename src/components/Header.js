@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-export const Header = () => (
+export const Header = (props) => (
+
     <header className="header">
         <div className="container">
             <img className="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee"/>
             <div className="profile-content pull-left">
-                <h1 className="name">Ewan Bauld</h1>
-                <h2 className="desc">Web App Developer</h2>
+                <h1 className="name">{props.header.name}</h1>
+                <h2 className="desc">{props.header.title}</h2>
                 <ul className="social list-inline">
                     <li><a href="#"><i className="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i className="fa fa-google-plus"></i></a></li>

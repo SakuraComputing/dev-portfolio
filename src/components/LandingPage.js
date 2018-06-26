@@ -25,17 +25,17 @@ class LandingPage  extends React.Component {
     }
 
 
-    componentDidMount() {
-
+    componentWillMount() {
         this.setState(profile_header_json);
-
     }
 
-
     render() {
+        const { header } = this.state;
+        console.log(header);
+
         return (
             <div>
-                <Header />
+                <Header header={header}/>
                 <div className="container sections-wrapper">
                     <div className="row">
                         <div className="primary col-md-8 col-sm-12 col-xs-12">
