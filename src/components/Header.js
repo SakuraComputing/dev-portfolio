@@ -9,10 +9,10 @@ export const Header = (props) => (
                 <h1 className="name">{props.header.name}</h1>
                 <h2 className="desc">{props.header.title}</h2>
                 <ul className="social list-inline">
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
+                    {props.header.social.twitter.url ? <li><a href="#"><i className="fa fa-twitter"></i></a></li> : null}
+                    {props.header.social.googleplus.url ?<li><a href="#"><i className="fa fa-google-plus"></i></a></li> : null}
                     {props.header.social.linkedin.url ? <li><a href="#"><i className="fa fa-linkedin"></i></a></li> : null}
-                    <li><a href="#"><i className="fa fa-github-alt"></i></a></li>
+                    {props.header.social.github.url ?<li><a href="#"><i className="fa fa-github-alt"></i></a></li> : null}
                     <li className="last-item"><a href="#"><i className="fa fa-hacker-news"></i></a></li>
                 </ul>
             </div>
