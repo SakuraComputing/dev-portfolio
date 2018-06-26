@@ -15,7 +15,7 @@ import MusicAside from '../components/MusicAside';
 import ConferenceAside from '../components/ConferenceAside';
 import CreditsAside from '../components/CreditsAside';
 import Footer from '../components/Footer';
-import profile_header_json from '../../data/profile_header';
+import profile_json from '../../data/profile';
 
 class LandingPage  extends React.Component {
 
@@ -26,7 +26,7 @@ class LandingPage  extends React.Component {
 
 
     componentWillMount() {
-        this.setState(profile_header_json);
+        this.setState(profile_json);
     }
 
     render() {

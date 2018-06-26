@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import toJSON from 'enzyme-to-json';
 import LandingPage from '../../components/LandingPage';
-import profile_header_json from '../../../data/profile_header';
+import profile_header_json from '../../../data/profile';
 
 
 describe('Landing Page', () => {

@@ -2,8 +2,6 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import toJSON from 'enzyme-to-json';
 import { Header } from '../../components/Header';
-import json from '../../../data/profile_header';
-
 
 describe('Header Component with social connections', () => {
 
@@ -52,7 +50,7 @@ describe('No social connections', () => {
                 twitter: { url: "" },
                 googleplus: { url: "" },
                 github: { url: "" },
-                github: { url: "" }
+                hackernews: { url: "" }
             },
         };
         wrapper = shallow(<Header header={header} />);
