@@ -13,6 +13,9 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           "googleplus": Object {
             "url": "",
           },
+          "hackernews": Object {
+            "url": "",
+          },
           "linkedin": Object {
             "url": "https://www.linkedin.com/in/ewan-bauld-8887a337/",
           },

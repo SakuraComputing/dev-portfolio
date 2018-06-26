@@ -17,6 +17,7 @@ describe('Header Component with social connections', () => {
                 twitter: { url: "http://wibble.com" },
                 googleplus: { url: "http://wibble.com" },
                 github: { url: "http://wibble.com" },
+                hackernews: { url: "http://wibble.com" }
             },
         };
         wrapper = shallow(<Header header={header} />);
@@ -34,7 +35,9 @@ describe('Header Component with social connections', () => {
     it('should show github account if it exists', () => {
         expect(wrapper.find('.fa-github-alt').exists()).toBe(true);
     });
-
+    it('should show hacker news account if it exists', () => {
+        expect(wrapper.find('.fa-hacker-news').exists()).toBe(true);
+    });
 });
 
 describe('No social connections', () => {
@@ -49,11 +52,11 @@ describe('No social connections', () => {
                 twitter: { url: "" },
                 googleplus: { url: "" },
                 github: { url: "" },
+                github: { url: "" }
             },
         };
         wrapper = shallow(<Header header={header} />);
     });
-
 
     it('should not show linked in account if it doesnt exist', () => {
         expect(wrapper.find('.fa-linkedin').exists()).toBe(false);
@@ -66,6 +69,9 @@ describe('No social connections', () => {
     });
     it('should not show github account if it doesnt exist', () => {
         expect(wrapper.find('.fa-github-alt').exists()).toBe(false);
+    });
+    it('should show hacker news account if it exists', () => {
+        expect(wrapper.find('.fa-hacker-news').exists()).toBe(false);
     });
 
 });
