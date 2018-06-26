@@ -9,5 +9,8 @@
   "modulePathIgnorePatterns": [
     "<rootDir>/public/assets/plugins/jquery-rss/spec/",
     "<rootDir>/node_modules"
-  ]
+  ],
+  "moduleNameMapper": {
+    "\\.(css|scss)$": "identity-obj-proxy"
+  }
 }
