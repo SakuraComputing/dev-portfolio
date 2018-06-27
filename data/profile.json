@@ -31,15 +31,34 @@
   "skillsaside": [
     {
       "id": 1,
-      "title": "CSS",
+      "title": "ReactJS",
+      "level": "Expert",
+      "bar": "80%"
+    },
+    {
+      "id": 2,
+      "title": "CSS3",
       "level": "Advanced",
       "bar": "70%"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Javascript",
       "level": "Expert",
       "bar": "81%"
+    },
+    {
+      "id": 4,
+      "title": "HTML5",
+      "level": "Advanced",
+      "bar": "71%"
+    },
+    {
+      "id": 5,
+      "title": "NodeJS",
+      "level": "Competant",
+      "bar": "60%"
     }
-  ]
+  ],
+  "skillsummary": "These are my core skills you check out other technologies I have been exposed."
 }

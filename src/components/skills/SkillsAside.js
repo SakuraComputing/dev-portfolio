@@ -5,7 +5,7 @@ class SkillsAside extends React.Component {
 
     render() {
 
-        const { skillsaside } = this.props;
+        const { skillsaside, skillsummary } = this.props;
 
         let skillItems;
 
@@ -18,22 +18,21 @@ class SkillsAside extends React.Component {
         }
 
         return (
-                <aside className="skills aside section">
-                    <div className="section-inner">
-                        <h2 className="heading">Skills</h2>
-                        <div className="content">
-                            <p className="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can
-                                always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
-                            <div className="skillset">
-                                {skillItems}
-                            </div>
-                            <p><a className="more-link" href="#"><i className="fa fa-external-link"></i> More on Coderwall</a>
-                            </p>
+            <aside className="skills aside section">
+                <div className="section-inner">
+                    <h2 className="heading">Skills</h2>
+                    <div className="content">
+                        <p className="intro">
+                            {skillsummary}
+                        </p>
+                        <div className="skillset">
+                            {skillItems}
                         </div>
+                        <p><a className="more-link" href="#"><i className="fa fa-external-link"></i> More on Coderwall</a>
+                        </p>
                     </div>
-                </aside>
-
+                </div>
+            </aside>
         );
     }
 }

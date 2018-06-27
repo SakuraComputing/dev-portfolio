@@ -64,19 +64,38 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           skillsaside={
             Array [
               Object {
-                "bar": "70%",
+                "bar": "80%",
                 "id": 1,
+                "level": "Expert",
+                "title": "ReactJS",
+              },
+              Object {
+                "bar": "70%",
+                "id": 2,
                 "level": "Advanced",
-                "title": "CSS",
+                "title": "CSS3",
               },
               Object {
                 "bar": "81%",
-                "id": 2,
+                "id": 3,
                 "level": "Expert",
                 "title": "Javascript",
               },
+              Object {
+                "bar": "71%",
+                "id": 4,
+                "level": "Advanced",
+                "title": "HTML5",
+              },
+              Object {
+                "bar": "60%",
+                "id": 5,
+                "level": "Competant",
+                "title": "NodeJS",
+              },
             ]
           }
+          skillsummary="These are my core skills you check out other technologies I have been exposed."
         />
         <TestimonialsAside />
         <EducationAside />
