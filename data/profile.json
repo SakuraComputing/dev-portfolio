@@ -27,5 +27,19 @@
     "location": "Manchester, UK",
     "email": "ewan.bauld@gmail.com",
     "website": "www.ewan.bauld.com"
-  }
+  },
+  "skillsaside": [
+    {
+      "id": 1,
+      "title": "CSS",
+      "level": "Expert",
+      "Bar": 80
+    },
+    {
+      "id": 2,
+      "title": "Javascript",
+      "level": "Expert",
+      "Bar": 81
+    }
+  ]
 }

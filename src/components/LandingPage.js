@@ -6,7 +6,7 @@ import OtherProjects from '../components/OtherProjects';
 import Experience from '../components/Experience';
 import Github from '../components/Github';
 import InfoAside from '../components/InfoAside';
-import SkillsAside from '../components/SkillsAside';
+import SkillsAside from './skills/SkillsAside';
 import TestimonialsAside from '../components/TestimonialsAside';
 import EducationAside from '../components/EducationAside';
 import LanguagesAside from '../components/LanguagesAside';
