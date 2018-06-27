@@ -20,7 +20,6 @@ exports[`Skills should render the for correctly 1`] = `
   >
     <div
       className="level-bar-inner"
-      data-level="{props.skill.bar}%"
     />
   </div>
 </div>

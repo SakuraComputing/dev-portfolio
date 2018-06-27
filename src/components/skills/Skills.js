@@ -14,7 +14,7 @@ const Skills = (props) => (
                 </span>
             </h3>
             <div className="level-bar">
-                <div className="level-bar-inner" data-level="{props.skill.bar}%">
+                <div className="level-bar-inner" data-level={props.skill.bar}>
                 </div>
             </div>
         </div>
