@@ -60,7 +60,24 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             }
           }
         />
-        <SkillsAside />
+        <SkillsAside
+          skillsaside={
+            Array [
+              Object {
+                "bar": 70,
+                "id": 1,
+                "level": "Advanced",
+                "title": "CSS",
+              },
+              Object {
+                "bar": 81,
+                "id": 2,
+                "level": "Expert",
+                "title": "Javascript",
+              },
+            ]
+          }
+        />
         <TestimonialsAside />
         <EducationAside />
         <LanguagesAside />

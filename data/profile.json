@@ -32,14 +32,14 @@
     {
       "id": 1,
       "title": "CSS",
-      "level": "Expert",
-      "Bar": 80
+      "level": "Advanced",
+      "bar": 70
     },
     {
       "id": 2,
       "title": "Javascript",
       "level": "Expert",
-      "Bar": 81
+      "bar": 81
     }
   ]
 }

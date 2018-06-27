@@ -23,110 +23,40 @@ exports[`SkillsAside Section should render correctly 1`] = `
       <div
         className="skillset"
       >
-        <div
-          className="item"
-        >
-          <h3
-            className="level-title"
-          >
-            Python & Django
-            <span
-              className="level-label"
-              data-animation="true"
-              data-placement="left"
-              data-toggle="tooltip"
-              title="You can use the tooltip to add more info..."
-            >
-              Expert
-            </span>
-          </h3>
-          <div
-            className="level-bar"
-          >
-            <div
-              className="level-bar-inner"
-              data-level="96%"
-            />
-          </div>
-        </div>
-        <div
-          className="item"
-        >
-          <h3
-            className="level-title"
-          >
-            Javascript & jQuery
-            <span
-              className="level-label"
-            >
-              Expert
-            </span>
-          </h3>
-          <div
-            className="level-bar"
-          >
-            <div
-              className="level-bar-inner"
-              data-level="96%"
-            />
-          </div>
-        </div>
-        <div
-          className="item"
-        >
-          <h3
-            className="level-title"
-          >
-            HTML5, CSS3, SASS & LESS
-            <span
-              className="level-label"
-            >
-              Expert
-            </span>
-          </h3>
-          <div
-            className="level-bar"
-          >
-            <div
-              className="level-bar-inner"
-              data-level="96%"
-            />
-          </div>
-        </div>
-        <div
-          className="item"
-        >
-          <h3
-            className="level-title"
-          >
-            Ruby on Rails
-            <span
-              className="level-label"
-            >
-              Pro
-            </span>
-          </h3>
-          <div
-            className="level-bar"
-          >
-            <div
-              className="level-bar-inner"
-              data-level="85%"
-            />
-          </div>
-        </div>
-        <p>
-          <a
-            className="more-link"
-            href="#"
-          >
-            <i
-              className="fa fa-external-link"
-            />
-             More on Coderwall
-          </a>
-        </p>
+        <Skills
+          key="1"
+          skill={
+            Object {
+              "Bar": 80,
+              "id": 1,
+              "level": "Expert",
+              "title": "CSS",
+            }
+          }
+        />
+        <Skills
+          key="2"
+          skill={
+            Object {
+              "Bar": 81,
+              "id": 2,
+              "level": "Expert",
+              "title": "Javascript",
+            }
+          }
+        />
       </div>
+      <p>
+        <a
+          className="more-link"
+          href="#"
+        >
+          <i
+            className="fa fa-external-link"
+          />
+           More on Coderwall
+        </a>
+      </p>
     </div>
   </div>
 </aside>

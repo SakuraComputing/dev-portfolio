@@ -4,10 +4,11 @@ import Skills from '../../../components/skills/Skills';
 
 describe('Skills', () => {
 
-    let wrapper;
+    let wrapper, skill;
 
     beforeEach(() => {
-        wrapper = shallow(<Skills />);
+        skill = jest.fn();
+        wrapper = shallow(<Skills skill={skill}/>);
 
     });
    it('should render the for correctly', () => {

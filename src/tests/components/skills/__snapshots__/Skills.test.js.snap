@@ -7,23 +7,20 @@ exports[`Skills should render the for correctly 1`] = `
   <h3
     className="level-title"
   >
-    Python & Django
     <span
       className="level-label"
       data-animation="true"
       data-placement="left"
       data-toggle="tooltip"
       title="You can use the tooltip to add more info..."
-    >
-      Expert
-    </span>
+    />
   </h3>
   <div
     className="level-bar"
   >
     <div
       className="level-bar-inner"
-      data-level="96%"
+      data-level="{props.skill.bar}%"
     />
   </div>
 </div>
