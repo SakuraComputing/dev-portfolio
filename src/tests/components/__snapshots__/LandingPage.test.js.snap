@@ -43,7 +43,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             }
           }
         />
-        <LatestProject />
+        <Project />
         <OtherProjects />
         <Experience />
         <Github />

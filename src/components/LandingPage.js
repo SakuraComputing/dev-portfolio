@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import About from '../components/About';
-import LatestProject from './projects/LatestProject';
+import Project from './projects/Project';
 import OtherProjects from '../components/OtherProjects';
 import Experience from '../components/Experience';
 import Github from '../components/Github';
@@ -39,7 +39,7 @@ class LandingPage  extends React.Component {
                     <div className="row">
                         <div className="primary col-md-8 col-sm-12 col-xs-12">
                             <About about={about} />
-                            <LatestProject/>
+                            <Project/>
                             <OtherProjects/>
                             <Experience/>
                             <Github/>

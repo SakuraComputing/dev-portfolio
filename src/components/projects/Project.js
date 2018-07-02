@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const LatestProject = () => (
+export const Project = () => (
     <section className="latest section">
         <div className="section-inner">
             <h2 className="heading">Latest Projects</h2>
@@ -111,4 +111,4 @@ export const LatestProject = () => (
 
 );
 
-export default LatestProject;
+export default Project;

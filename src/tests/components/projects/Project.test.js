@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import LatestProject from '../../../components/projects/LatestProject';
+import Project from '../../../components/projects/Project';
 
 describe('Latest Project Section', () => {
     it('should render correctly', () => {
-        const wrapper = shallow(<LatestProject />);
+        const wrapper = shallow(<Project />);
         expect(wrapper).toMatchSnapshot();
     });
 });
