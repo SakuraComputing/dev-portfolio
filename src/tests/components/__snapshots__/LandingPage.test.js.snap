@@ -39,7 +39,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
         <About
           about={
             Object {
-              "text": "Front end developer with over twnety years of experience in software delivery.  Specialising in ReactJS but also experience in vanilla javascript and other MVC frameworks such as Angular. Take both TDD approaches and AB Testing to coding",
+              "text": "Front end developer with over twenty years of experience in software delivery.  Specialising in ReactJS but also experience in vanilla javascript and other MVC frameworks such as Angular. Take both TDD approaches and AB Testing to coding",
             }
           }
         />
