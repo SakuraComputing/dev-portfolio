@@ -101,7 +101,28 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
         <EducationAside />
         <LanguagesAside />
         <BlogAside />
-        <MusicAside />
+        <MusicAside
+          musicaside={
+            Array [
+              Object {
+                "id": 1,
+                "title": "JJ Cale - Fate of a fool",
+              },
+              Object {
+                "id": 2,
+                "title": "Jorge Ben - Take it Easy My Brother Charlie",
+              },
+              Object {
+                "id": 3,
+                "title": "Nina Simone - Ain't Got No - Got Life",
+              },
+              Object {
+                "id": 4,
+                "title": "Tone Loc - Funky Cold Medina",
+              },
+            ]
+          }
+        />
         <ConferenceAside />
         <CreditsAside />
       </div>

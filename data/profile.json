@@ -60,5 +60,24 @@
       "bar": "60%"
     }
   ],
-  "skillsummary": "These are my core skills you check out other technologies I have been exposed."
+  "skillsummary": "These are my core skills you check out other technologies I have been exposed.",
+  "musicaside": [
+    {
+      "id": 1,
+      "title": "JJ Cale - Fate of a fool"
+    },
+    {
+      "id": 2,
+      "title": "Jorge Ben - Take it Easy My Brother Charlie"
+    },
+    {
+      "id": 3,
+      "title": "Nina Simone - Ain't Got No - Got Life"
+    },
+    {
+      "id": 4,
+      "title": "Tone Loc - Funky Cold Medina"
+    }
+
+  ]
 }

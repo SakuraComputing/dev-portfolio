@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MusicAside Section should render correctly 1`] = `
+<aside
+  className="list music aside section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Favourite coding music
+    </h2>
+    <div
+      className="content"
+    >
+      <ul
+        className="list-unstyled"
+      >
+        <h4>
+          No Songs Found.......
+        </h4>
+      </ul>
+    </div>
+  </div>
+</aside>
+`;

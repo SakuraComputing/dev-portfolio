@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Songs should render the for correctly 1`] = `
+<li>
+  <i
+    className="fa fa-headphones"
+  />
+  <a
+    href="#"
+  />
+</li>
+`;

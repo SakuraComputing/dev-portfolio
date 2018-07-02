@@ -11,7 +11,7 @@ import TestimonialsAside from '../components/TestimonialsAside';
 import EducationAside from '../components/EducationAside';
 import LanguagesAside from '../components/LanguagesAside';
 import BlogAside from '../components/BlogAside';
-import MusicAside from '../components/MusicAside';
+import MusicAside from './music/MusicAside';
 import ConferenceAside from '../components/ConferenceAside';
 import CreditsAside from '../components/CreditsAside';
 import Footer from '../components/Footer';
@@ -30,7 +30,7 @@ class LandingPage  extends React.Component {
     }
 
     render() {
-        const { header, about, infoaside, skillsaside, skillsummary } = this.state;
+        const { header, about, infoaside, skillsaside, skillsummary, musicaside } = this.state;
 
         return (
             <div>
@@ -51,7 +51,7 @@ class LandingPage  extends React.Component {
                             <EducationAside/>
                             <LanguagesAside/>
                             <BlogAside/>
-                            <MusicAside/>
+                            <MusicAside musicaside={musicaside}/>
                             <ConferenceAside/>
                             <CreditsAside/>
                         </div>
