@@ -18,7 +18,6 @@ class Project extends React.Component {
             );
         }
 
-
         return (
             <section className="latest section">
                 <div className="section-inner">
