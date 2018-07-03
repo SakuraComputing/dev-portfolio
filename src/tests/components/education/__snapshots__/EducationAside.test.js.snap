@@ -14,30 +14,7 @@ exports[`EducationAside Section should render correctly 1`] = `
     </h2>
     <div
       className="content"
-    >
-      <div
-        className="item"
-      >
-        <h3
-          className="title"
-        >
-          <i
-            className="fa fa-graduation-cap"
-          />
-           BSc Computer Science
-        </h3>
-        <h4
-          className="university"
-        >
-          University of Bristol 
-          <span
-            className="year"
-          >
-            (2008-2011)
-          </span>
-        </h4>
-      </div>
-    </div>
+    />
   </div>
 </aside>
 `;

@@ -1,17 +1,30 @@
 import React from 'react';
+import EducationItem from '../../components/education/EducationItem';
 
-export const EducationAside = () => (
-    <aside className="education aside section">
-        <div className="section-inner">
-            <h2 className="heading">Education</h2>
-            <div className="content">
-                <div className="item">
-                    <h3 className="title"><i className="fa fa-graduation-cap"></i> BSc Computer Science</h3>
-                    <h4 className="university">University of Bristol <span className="year">(2008-2011)</span></h4>
+class EducationAside extends React.Component {
+
+    render() {
+
+        const {education} = this.props;
+
+        let educationItem;
+
+        if (education.length > 0) {
+            educationItem = education.map(item => (
+                <EducationItem key={item.id} item={item}/>
+            ));
+        }
+
+        return (
+            <aside className="education aside section">
+                <div className="section-inner">
+                    <h2 className="heading">Education</h2>
+                    <div className="content">
+                        {educationItem}
+                    </div>
                 </div>
-            </div>
-        </div>
-    </aside>
-);
-
+            </aside>
+        )
+    }
+};
 export default EducationAside;

@@ -4,7 +4,8 @@ import EducationAside from '../../../components/education/EducationAside';
 
 describe('EducationAside Section', () => {
     it('should render correctly', () => {
-        const wrapper = shallow(<EducationAside />);
+        const education = jest.fn();
+        const wrapper = shallow(<EducationAside education={education}/>);
         expect(wrapper).toMatchSnapshot();
     });
 });

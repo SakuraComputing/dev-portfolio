@@ -4,8 +4,8 @@ import EducationItem from '../../../components/education/EducationItem';
 
 describe('EducationItem Section', () => {
     it('should render correctly', () => {
-        const educationitem = jest.fn();
-        const wrapper = shallow(<EducationItem educationitem={educationitem}/>);
+        const item = jest.fn();
+        const wrapper = shallow(<EducationItem item={item}/>);
         expect(wrapper).toMatchSnapshot();
     });
 });
