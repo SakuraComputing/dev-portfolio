@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EducationItem Section should render correctly 1`] = `
+<div>
+  <div
+    className="item"
+  >
+    <h3
+      className="title"
+    >
+      <i
+        className="fa fa-graduation-cap"
+      />
+    </h3>
+    <h4
+      className="university"
+    >
+      <span
+        className="year"
+      />
+    </h4>
+  </div>
+</div>
+`;

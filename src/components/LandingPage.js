@@ -8,7 +8,7 @@ import Github from '../components/Github';
 import InfoAside from '../components/InfoAside';
 import SkillsAside from './skills/SkillsAside';
 import TestimonialsAside from '../components/TestimonialsAside';
-import EducationAside from '../components/EducationAside';
+import EducationAside from './education/EducationAside';
 import LanguagesAside from '../components/LanguagesAside';
 import BlogAside from '../components/BlogAside';
 import MusicAside from './music/MusicAside';
@@ -39,7 +39,8 @@ class LandingPage  extends React.Component {
                 projects,
                 latestproject,
                 experience,
-                otherprojects
+                otherprojects,
+                education
         } = this.state;
 
         return (
@@ -58,7 +59,7 @@ class LandingPage  extends React.Component {
                             <InfoAside infoaside={infoaside}/>
                             <SkillsAside skillsaside={skillsaside} skillsummary={skillsummary}/>
                             <TestimonialsAside/>
-                            <EducationAside/>
+                            <EducationAside education={education}/>
                             <LanguagesAside/>
                             <BlogAside/>
                             <MusicAside musicaside={musicaside}/>

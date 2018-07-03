@@ -24,28 +24,6 @@ exports[`EducationAside Section should render correctly 1`] = `
           <i
             className="fa fa-graduation-cap"
           />
-           BSc Psychology
-        </h3>
-        <h4
-          className="university"
-        >
-          Leeds University
-          <span
-            className="year"
-          >
-            (1989-1991)
-          </span>
-        </h4>
-      </div>
-      <div
-        className="item"
-      >
-        <h3
-          className="title"
-        >
-          <i
-            className="fa fa-graduation-cap"
-          />
            BSc Computer Science
         </h3>
         <h4

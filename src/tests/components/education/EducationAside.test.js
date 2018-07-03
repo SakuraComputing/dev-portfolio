@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import EducationAside from '../../components/EducationAside';
+import EducationAside from '../../../components/education/EducationAside';
 
 describe('EducationAside Section', () => {
     it('should render correctly', () => {
