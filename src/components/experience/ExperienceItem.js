@@ -4,12 +4,9 @@ const ExperienceItem = (props) => {
     return (
         <div>
             <div className="item">
-                <h3 className="title">Co-Founder & Lead Developer - <span className="place"><a
-                    href="#">Startup Hub</a></span> <span className="year">(2014 - Present)</span></h3>
-                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus
-                    in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec
-                    vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros
-                    faucibus tincidunt.</p>
+                <h3 className="title">{props.experience.title} - <span className="place"><a
+                    href="#">{props.experience.company}</a></span> <span className="year">{props.experience.year}</span></h3>
+                <p>{props.experience.description}</p>
             </div>
         </div>
     );
