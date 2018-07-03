@@ -135,9 +135,9 @@
       "exampleURL": "https://liverpool-kendo-club.herokuapp.com/"
     }
   ],
-  "Experience": [
+  "experience": [
       {
-        "id": 1,
+        "id": 3,
         "title": "Lead Developer",
         "company": "Yodel/DHL",
         "year": "(2011 - 2016)",
@@ -151,11 +151,11 @@
         "description": "Web developer Ruby on Rails originally then React JS and some Java API experience. Exposed to TDD, Docker and Kafka"
       },
       {
-        "id": 3,
+        "id": 1,
         "title": "Full Stack Developer",
         "company": "Three Media Associates",
         "year": "(2018 - present)",
-        "description": "Full tack developer exposed to Angular, C# and NodeJS"
+        "description": "Full stack developer exposed to Angular, C# and NodeJS"
       }
   ]
 }

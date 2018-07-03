@@ -4,7 +4,8 @@ import Experience from '../../../components/experience/Experience';
 
 describe('Experience Section', () => {
     it('should render correctly', () => {
-        const wrapper = shallow(<Experience />);
+        const experience = jest.fn();
+        const wrapper = shallow(<Experience experience={experience}/>);
         expect(wrapper).toMatchSnapshot();
     });
 });
