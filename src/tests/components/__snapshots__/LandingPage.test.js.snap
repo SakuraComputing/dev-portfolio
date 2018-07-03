@@ -104,7 +104,24 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             ]
           }
         />
-        <OtherProjects />
+        <OtherProjects
+          otherprojects={
+            Array [
+              Object {
+                "description": "Drag and Drop kanban board framework with tests",
+                "github": "https://github.com/SakuraComputing/kanban_board",
+                "id": 1,
+                "title": "Kanban Board",
+              },
+              Object {
+                "description": "Ember test application including calculator",
+                "github": "https://github.com/SakuraComputing/embDocs",
+                "id": 2,
+                "title": "Ember test application",
+              },
+            ]
+          }
+        />
         <Experience
           experience={
             Array [

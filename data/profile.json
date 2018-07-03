@@ -135,6 +135,20 @@
       "exampleURL": "https://liverpool-kendo-club.herokuapp.com/"
     }
   ],
+  "otherprojects": [
+    {
+      "id": 1,
+      "title": "Kanban Board",
+      "description": "Drag and Drop kanban board framework with tests",
+      "github": "https://github.com/SakuraComputing/kanban_board"
+    },
+    {
+      "id": 2,
+      "title": "Ember test application",
+      "description": "Ember test application including calculator",
+      "github": "https://github.com/SakuraComputing/embDocs"
+    }
+  ],
   "experience": [
       {
         "id": 3,

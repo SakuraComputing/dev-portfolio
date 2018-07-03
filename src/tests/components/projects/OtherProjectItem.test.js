@@ -4,7 +4,8 @@ import OtherProjectItem from '../../../components/projects/OtherProjectItem';
 
 describe('Other Projects Section', () => {
     it('should render correctly', () => {
-        const wrapper = shallow(<OtherProjectItem />);
+        const otherproject = jest.fn();
+        const wrapper = shallow(<OtherProjectItem otherproject={otherproject}/>);
         expect(wrapper).toMatchSnapshot();
     });
 });

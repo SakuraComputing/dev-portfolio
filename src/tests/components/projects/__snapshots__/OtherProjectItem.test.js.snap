@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Other Projects Section should render correctly 1`] = `
+<div>
+  <div
+    className="item"
+  >
+    <h3
+      className="title"
+    >
+      <a
+        href="#"
+      />
+       
+      <span
+        className="label label-theme"
+      >
+        Open Source
+      </span>
+    </h3>
+    <p
+      className="summary"
+    />
+    <p>
+      <a
+        className="more-link"
+        href="https://github.com/SakuraComputing/embDocs"
+        target="_blank"
+      >
+        <i
+          className="fa fa-external-link"
+        />
+         View on GitHub
+      </a>
+    </p>
+  </div>
+</div>
+`;

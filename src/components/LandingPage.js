@@ -30,7 +30,17 @@ class LandingPage  extends React.Component {
     }
 
     render() {
-        const { header, about, infoaside, skillsaside, skillsummary, musicaside, projects, latestproject, experience } = this.state;
+        const { header,
+                about,
+                infoaside,
+                skillsaside,
+                skillsummary,
+                musicaside,
+                projects,
+                latestproject,
+                experience,
+                otherprojects
+        } = this.state;
 
         return (
             <div>
@@ -40,7 +50,7 @@ class LandingPage  extends React.Component {
                         <div className="primary col-md-8 col-sm-12 col-xs-12">
                             <About about={about} />
                             <Project projects={projects} latestproject={latestproject}/>
-                            <OtherProjects/>
+                            <OtherProjects otherprojects={otherprojects}/>
                             <Experience experience={experience}/>
                             <Github/>
                         </div>
