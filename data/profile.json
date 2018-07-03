@@ -82,39 +82,49 @@
   ],
   "projects": [
     {
+      "id": 1,
       "title": "Developer Connector",
       "synopsis": "A Facebook for Developers",
-      "imagePath": "/assets/images/projects/project-1",
+      "imagePath": "assets/images/projects/devconnector.png",
       "description1": "A platform that allows developers to connect with one another.",
-      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)"
+      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+      "exampleURL": "http://devconnector-app.herokuapp.com/"
     },
     {
+      "id": 2,
       "title": "Mean Hotel Application",
       "synopsis": "A Facebook for Developers",
-      "imagePath": "/assets/images/projects/project-2",
-      "description1": "A platform that allows developers to connect with one another.",
-      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)"
+      "imagePath": "assets/images/projects/project-2.png",
+      "description1": "Hotel Application built using Mongo, Express, Angular and Node.",
+      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+      "exampleURL": ""
     },
     {
+      "id": 3,
       "title": "Sabre Proof of Concept",
       "synopsis": "A Facebook for Developers",
-      "imagePath": "/assets/images/projects/project-3",
-      "description1": "A platform that allows developers to connect with one another.",
-      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)"
+      "imagePath": "assets/images/projects/project-3.png",
+      "description1": "Proof of concept written using React JS and Node",
+      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+      "exampleURL": "https://react-son-of-sabre.herokuapp.com/"
     },
     {
+      "id": 4,
       "title": "Expensify Application",
       "synopsis": "A Facebook for Developers",
-      "imagePath": "/assets/images/projects/project-4",
-      "description1": "A platform that allows developers to connect with one another.",
-      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)"
+      "imagePath": "assets/images/projects/project-4.png",
+      "description1": "Expensify application written in ReactJS using Firebase as the datastore.",
+      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+      "exampleURL": "https://react-course-ew-expensify.herokuapp.com/"
     },
     {
+      "id": 5,
       "title": "Liverpool Kendo Club",
       "synopsis": "A Facebook for Developers",
-      "imagePath": "/assets/images/projects/project-5",
-      "description1": "A platform that allows developers to connect with one another.",
-      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)"
+      "imagePath": "assets/images/projects/project-5.png",
+      "description1": "Example live apllication using React JS.",
+      "description2": "Written in ReactJS with a Firebase Datastore",
+      "exampleURL": "https://liverpool-kendo-club.herokuapp.com/"
     }
   ]
 }

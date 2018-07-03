@@ -4,10 +4,11 @@ import ProjectItem from '../../../components/projects/ProjectItem';
 
 describe('Project Item', () => {
 
-    let wrapper;
+    let wrapper, project;
 
     beforeEach(() => {
-        wrapper = shallow(<ProjectItem />);
+        project = jest.fn();
+        wrapper = shallow(<ProjectItem project={project}/>);
     });
 
     it('should render correctly', () => {

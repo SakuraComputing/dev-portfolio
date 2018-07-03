@@ -4,7 +4,8 @@ import Project from '../../../components/projects/Project';
 
 describe('Latest Project Section', () => {
     it('should render correctly', () => {
-        const wrapper = shallow(<Project />);
+        const projects = jest.fn();
+        const wrapper = shallow(<Project projects={projects}/>);
         expect(wrapper).toMatchSnapshot();
     });
 });

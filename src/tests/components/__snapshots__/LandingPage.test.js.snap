@@ -43,7 +43,57 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             }
           }
         />
-        <Project />
+        <Project
+          projects={
+            Array [
+              Object {
+                "description1": "A platform that allows developers to connect with one another.",
+                "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+                "exampleURL": "http://devconnector-app.herokuapp.com/",
+                "id": 1,
+                "imagePath": "assets/images/projects/devconnector.png",
+                "synopsis": "A Facebook for Developers",
+                "title": "Developer Connector",
+              },
+              Object {
+                "description1": "Hotel Application built using Mongo, Express, Angular and Node.",
+                "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+                "exampleURL": "",
+                "id": 2,
+                "imagePath": "assets/images/projects/project-2.png",
+                "synopsis": "A Facebook for Developers",
+                "title": "Mean Hotel Application",
+              },
+              Object {
+                "description1": "Proof of concept written using React JS and Node",
+                "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+                "exampleURL": "https://react-son-of-sabre.herokuapp.com/",
+                "id": 3,
+                "imagePath": "assets/images/projects/project-3.png",
+                "synopsis": "A Facebook for Developers",
+                "title": "Sabre Proof of Concept",
+              },
+              Object {
+                "description1": "Expensify application written in ReactJS using Firebase as the datastore.",
+                "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+                "exampleURL": "https://react-course-ew-expensify.herokuapp.com/",
+                "id": 4,
+                "imagePath": "assets/images/projects/project-4.png",
+                "synopsis": "A Facebook for Developers",
+                "title": "Expensify Application",
+              },
+              Object {
+                "description1": "Example live apllication using React JS.",
+                "description2": "Written in ReactJS with a Firebase Datastore",
+                "exampleURL": "https://liverpool-kendo-club.herokuapp.com/",
+                "id": 5,
+                "imagePath": "assets/images/projects/project-5.png",
+                "synopsis": "A Facebook for Developers",
+                "title": "Liverpool Kendo Club",
+              },
+            ]
+          }
+        />
         <OtherProjects />
         <Experience />
         <Github />
