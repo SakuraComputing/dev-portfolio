@@ -134,5 +134,25 @@
       "description2": "Written in ReactJS with a Firebase Datastore",
       "exampleURL": "https://liverpool-kendo-club.herokuapp.com/"
     }
+  ],
+  "Experience": [
+      {
+        "id": 1,
+        "title": "Lead Developer",
+        "year": "(2011 - 2016)",
+        "description": "Lead Uniface developer responsible for the core parcel delivery system"
+      },
+      {
+        "id": 2,
+        "title": "Web Developer",
+        "year": "(2016 - Jan 2018)",
+        "description": "Web developer Ruby on Rails originally then React JS and some Java API experience. Exposed to TDD, Docker and Kafka"
+      },
+      {
+        "id": 3,
+        "title": "Full Stack Developer",
+        "year": "(2018 - present)",
+        "description": "Full tack developer exposed to Angular, C# and NodeJS"
+      }
   ]
 }
