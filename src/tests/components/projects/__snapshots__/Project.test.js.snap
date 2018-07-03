@@ -22,28 +22,21 @@ exports[`Latest Project Section should render correctly 1`] = `
           className="title"
         >
           <a
-            href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/"
             target="_blank"
-          >
-            KickStarter - Velocity
-          </a>
+          />
         </h3>
         <p
           className="summary"
-        >
-          A responsive Bootstrap template designed for digital products
-        </p>
+        />
         <div
           className="featured-image"
         >
           <a
-            href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/"
             target="_blank"
           >
             <img
               alt="project name"
               className="img-responsive project-image"
-              src="assets/images/projects/project-featured.png"
             />
           </a>
           <div
@@ -59,16 +52,11 @@ exports[`Latest Project Section should render correctly 1`] = `
         <div
           className="desc text-left"
         >
-          <p>
-            You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.
-          </p>
-          <p>
-            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.
-          </p>
+          <p />
+          <p />
         </div>
         <a
           className="btn btn-cta-secondary"
-          href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/"
           target="_blank"
         >
           <i

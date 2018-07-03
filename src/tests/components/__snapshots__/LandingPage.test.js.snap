@@ -44,6 +44,16 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           }
         />
         <Project
+          latestproject={
+            Object {
+              "description1": "A platform that allows developers to connect with one another.",
+              "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+              "exampleURL": "http://devconnector-app.herokuapp.com/",
+              "imagePath": "assets/images/projects/project-main.png",
+              "synopsis": "A Facebook for Developers",
+              "title": "Developer Connector",
+            }
+          }
           projects={
             Array [
               Object {
