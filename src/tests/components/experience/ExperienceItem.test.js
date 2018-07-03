@@ -4,14 +4,14 @@ import ExperienceItem from '../../../components/experience/ExperienceItem';
 
 describe('ExperienceItem Section', () => {
     it('should render correctly', () => {
-        const experience = {
+        const role = {
             id: 1,
             title: 'Dev',
             year: "(2016 - present)",
             company: "DHL",
             description: "Wibble"
         };
-        const wrapper = shallow(<ExperienceItem experience={experience}/>);
+        const wrapper = shallow(<ExperienceItem role={role}/>);
         expect(wrapper).toMatchSnapshot();
     });
 });

@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import About from '../components/About';
 import Project from './projects/Project';
-import OtherProjects from '../components/OtherProjects';
+import OtherProjects from './projects/OtherProjects';
 import Experience from './experience/Experience';
 import Github from '../components/Github';
 import InfoAside from '../components/InfoAside';

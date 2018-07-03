@@ -105,7 +105,33 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           }
         />
         <OtherProjects />
-        <Experience />
+        <Experience
+          experience={
+            Array [
+              Object {
+                "company": "Yodel/DHL",
+                "description": "Lead Uniface developer responsible for the core parcel delivery system",
+                "id": 3,
+                "title": "Lead Developer",
+                "year": "(2011 - 2016)",
+              },
+              Object {
+                "company": "Yodel",
+                "description": "Web developer Ruby on Rails originally then React JS and some Java API experience. Exposed to TDD, Docker and Kafka",
+                "id": 2,
+                "title": "Web Developer",
+                "year": "(2016 - Jan 2018)",
+              },
+              Object {
+                "company": "Three Media Associates",
+                "description": "Full stack developer exposed to Angular, C# and NodeJS",
+                "id": 1,
+                "title": "Full Stack Developer",
+                "year": "(2018 - present)",
+              },
+            ]
+          }
+        />
         <Github />
       </div>
       <div
