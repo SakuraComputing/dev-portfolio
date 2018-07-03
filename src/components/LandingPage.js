@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import About from '../components/About';
 import Project from './projects/Project';
 import OtherProjects from '../components/OtherProjects';
-import Experience from '../components/Experience';
+import Experience from './experience/Experience';
 import Github from '../components/Github';
 import InfoAside from '../components/InfoAside';
 import SkillsAside from './skills/SkillsAside';
