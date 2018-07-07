@@ -59,12 +59,10 @@ class LandingPage  extends React.Component {
                         <div className="secondary col-md-4 col-sm-12 col-xs-12">
                             <InfoAside infoaside={infoaside}/>
                             <SkillsAside skillsaside={skillsaside} skillsummary={skillsummary}/>
-                            <TestimonialsAside/>
                             <EducationAside education={education}/>
                             <LanguagesAside languages={languages}/>
                             <BlogAside/>
                             <MusicAside musicaside={musicaside}/>
-                            <ConferenceAside/>
                             <CreditsAside/>
                         </div>
                     </div>

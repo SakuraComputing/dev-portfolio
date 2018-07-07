@@ -7,7 +7,8 @@ const Language = (props) => {
                 <span className="title"><strong>{props.language.title}: </strong></span>
                 <span className="level">{props.language.level} <br className="visible-xs"/>
                     {
-                        '★'.repeat(props.language.rating)}
+                        '★'.repeat(props.language.rating)
+                    }
                 </span>
             </li>
 

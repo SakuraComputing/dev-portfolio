@@ -21,27 +21,23 @@ export const CreditsAside = () => (
                     <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i
                         className="fa fa-external-link"></i> jQuery RSS</a></li>
 
-                    <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben
-                        Smith</a></li>
-                    <li>iPad and iPhone mocks: <a href="https://dribbble.com/perlerar" target="_blank">Regy Perlera</a></li>
-
                 </ul>
 
                 <hr/>
 
-                <p>This responsive portfolio template is handcrafted by UX designer <a
-                    href="https://www.linkedin.com/in/xiaoying" target="_blank">Xiaoying Riley</a> at <a
-                    href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and
-                    is <strong>FREE</strong> under the <a className="dotted-link"
-                                                          href="http://creativecommons.org/licenses/by/3.0/"
-                                                          target="_blank">Creative Commons Attribution 3.0 License</a></p>
-                <p>We will improve or add new features to this template based on users' feedback so follow us on twitter to
-                    get notified when a new version is out!</p>
-                <a className="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i
-                    className="fa fa-twitter"></i> Follow us</a>
-                <a className="btn btn-cta-primary btn-download"
-                   href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/"
-                   target="_blank"><i className="fa fa-download"></i> I want to download</a>
+                {/*<p>This responsive portfolio template is handcrafted by UX designer <a*/}
+                    {/*href="https://www.linkedin.com/in/xiaoying" target="_blank">Xiaoying Riley</a> at <a*/}
+                    {/*href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and*/}
+                    {/*is <strong>FREE</strong> under the <a className="dotted-link"*/}
+                                                          {/*href="http://creativecommons.org/licenses/by/3.0/"*/}
+                                                          {/*target="_blank">Creative Commons Attribution 3.0 License</a></p>*/}
+                {/*<p>We will improve or add new features to this template based on users' feedback so follow us on twitter to*/}
+                    {/*get notified when a new version is out!</p>*/}
+                {/*<a className="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i*/}
+                    {/*className="fa fa-twitter"></i> Follow us</a>*/}
+                {/*<a className="btn btn-cta-primary btn-download"*/}
+                   {/*href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/"*/}
+                   {/*target="_blank"><i className="fa fa-download"></i> I want to download</a>*/}
             </div>
 
         </div>
