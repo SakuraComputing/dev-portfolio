@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Language Section should render correctly 1`] = `
+<div>
+  <li
+    className="item"
+  >
+    <span
+      className="title"
+    >
+      <strong />
+    </span>
+    <span
+      className="level"
+    >
+       
+      <br
+        className="visible-xs"
+      />
+      <i
+        className="fa fa-star"
+      />
+       
+      <i
+        className="fa fa-star"
+      />
+       
+      <i
+        className="fa fa-star"
+      />
+       
+      <i
+        className="fa fa-star"
+      />
+       
+      <i
+        className="fa fa-star"
+      />
+       
+    </span>
+  </li>
+</div>
+`;
