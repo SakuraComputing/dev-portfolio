@@ -219,7 +219,20 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             ]
           }
         />
-        <LanguagesAside />
+        <LanguagesAside
+          languages={
+            Array [
+              Object {
+                "level": "Fluent",
+                "title": "English",
+              },
+              Object {
+                "level": "Basic",
+                "title": "Japanese",
+              },
+            ]
+          }
+        />
         <BlogAside />
         <MusicAside
           musicaside={

@@ -4,7 +4,8 @@ import LanguagesAside from '../../../components/languages/LanguagesAside';
 
 describe('LanguagesAside Section', () => {
     it('should render correctly', () => {
-        const wrapper = shallow(<LanguagesAside />);
+        const languages = jest.fn();
+        const wrapper = shallow(<LanguagesAside languages={languages}/>);
         expect(wrapper).toMatchSnapshot();
     });
 });

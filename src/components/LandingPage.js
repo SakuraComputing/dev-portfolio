@@ -40,7 +40,8 @@ class LandingPage  extends React.Component {
                 latestproject,
                 experience,
                 otherprojects,
-                education
+                education,
+                languages
         } = this.state;
 
         return (
@@ -60,7 +61,7 @@ class LandingPage  extends React.Component {
                             <SkillsAside skillsaside={skillsaside} skillsummary={skillsummary}/>
                             <TestimonialsAside/>
                             <EducationAside education={education}/>
-                            <LanguagesAside/>
+                            <LanguagesAside languages={languages}/>
                             <BlogAside/>
                             <MusicAside musicaside={musicaside}/>
                             <ConferenceAside/>
