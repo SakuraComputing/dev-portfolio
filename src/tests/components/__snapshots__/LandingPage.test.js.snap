@@ -206,7 +206,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             Array [
               Object {
                 "id": 1,
-                "institution": "Leeds Univers§ity",
+                "institution": "Leeds University",
                 "qualifiation": "BSc Degree",
                 "year": "(1989-1991)",
               },
@@ -224,10 +224,12 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             Array [
               Object {
                 "level": "Fluent",
+                "rating": 5,
                 "title": "English",
               },
               Object {
                 "level": "Basic",
+                "rating": 1,
                 "title": "Japanese",
               },
             ]

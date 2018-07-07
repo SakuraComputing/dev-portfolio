@@ -5,9 +5,10 @@ const Language = (props) => {
         <div>
             <li className="item">
                 <span className="title"><strong>{props.language.title}: </strong></span>
-                <span className="level">{props.language.level} <br className="visible-xs"/><i
-                    className="fa fa-star"></i> <i className="fa fa-star"></i> <i className="fa fa-star"></i> <i
-                    className="fa fa-star"></i> <i className="fa fa-star"></i> </span>
+                <span className="level">{props.language.level} <br className="visible-xs"/>
+                    {
+                        '★'.repeat(props.language.rating)}
+                </span>
             </li>
 
         </div>

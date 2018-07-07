@@ -175,7 +175,7 @@
   "education": [
     {
       "id": 1,
-      "institution": "Leeds Univers§ity",
+      "institution": "Leeds University",
       "qualifiation": "BSc Degree",
       "year": "(1989-1991)"
     },
@@ -189,11 +189,13 @@
   "languages": [
     {
       "title": "English",
-      "level": "Fluent"
+      "level": "Fluent",
+      "rating": 5
     },
     {
       "title": "Japanese",
-      "level": "Basic"
+      "level": "Basic",
+      "rating": 1
     }
   ]
 }

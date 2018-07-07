@@ -8,7 +8,9 @@ exports[`Language Section should render correctly 1`] = `
     <span
       className="title"
     >
-      <strong />
+      <strong>
+        : 
+      </strong>
     </span>
     <span
       className="level"
@@ -17,26 +19,6 @@ exports[`Language Section should render correctly 1`] = `
       <br
         className="visible-xs"
       />
-      <i
-        className="fa fa-star"
-      />
-       
-      <i
-        className="fa fa-star"
-      />
-       
-      <i
-        className="fa fa-star"
-      />
-       
-      <i
-        className="fa fa-star"
-      />
-       
-      <i
-        className="fa fa-star"
-      />
-       
     </span>
   </li>
 </div>
