@@ -9,7 +9,7 @@ import InfoAside from '../components/InfoAside';
 import SkillsAside from './skills/SkillsAside';
 import TestimonialsAside from '../components/TestimonialsAside';
 import EducationAside from './education/EducationAside';
-import LanguagesAside from '../components/LanguagesAside';
+import LanguagesAside from './languages/LanguagesAside';
 import BlogAside from '../components/BlogAside';
 import MusicAside from './music/MusicAside';
 import ConferenceAside from '../components/ConferenceAside';

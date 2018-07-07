@@ -185,5 +185,15 @@
       "qualifiation": "A Levels (BBC)",
       "year": "(1988-1989)"
     }
+  ],
+  "languages": [
+    {
+      "title": "English",
+      "level": "Fluent"
+    },
+    {
+      "title": "Japanese",
+      "level": "Basic"
+    }
   ]
 }
