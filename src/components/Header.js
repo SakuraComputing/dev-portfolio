@@ -16,8 +16,6 @@ export const Header = (props) => (
                     {props.header.social.hackernews.url ? <li className="last-item"><a href={props.header.social.hackernews.url}><i className="fa fa-hacker-news"></i></a></li> : null}
                 </ul>
             </div>
-            <a className="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i
-                className="fa fa-paper-plane"></i>Contact Me</a>
         </div>
     </header>
 );
