@@ -21,7 +21,7 @@ TDD approach adopted. To run the unit tests run the following
 yarn run test
 ```
 
-Get coverage
+Test coverage
 ```coverage
 yarn run test -- --coverage
 ```
