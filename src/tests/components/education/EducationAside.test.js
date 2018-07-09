@@ -4,7 +4,22 @@ import EducationAside from '../../../components/education/EducationAside';
 
 describe('EducationAside Section', () => {
     it('should render correctly', () => {
-        const education = jest.fn();
+
+        const education = [
+            {
+                "id": 1,
+                "institution": "Leeds University",
+                "qualifiation": "BSc Degree",
+                "year": "(1989-1991)"
+            },
+            {
+                "id": 2,
+                "institution": "South Trafford College",
+                "qualifiation": "A Levels (BBC)",
+                "year": "(1988-1989)"
+            }
+        ]
+        // const education = jest.fn();
         const wrapper = shallow(<EducationAside education={education}/>);
         expect(wrapper).toMatchSnapshot();
     });

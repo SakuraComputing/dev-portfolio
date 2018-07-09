@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Experience Section should render correctly 1`] = `
+exports[`Experience Section should not render any experience if nothing paseed in 1`] = `
 <section
   className="experience section"
 >
@@ -15,6 +15,62 @@ exports[`Experience Section should render correctly 1`] = `
     <div
       className="content"
     />
+  </div>
+</section>
+`;
+
+exports[`Experience Section should render correctly 1`] = `
+<section
+  className="experience section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Work Experience
+    </h2>
+    <div
+      className="content"
+    >
+      <ExperienceItem
+        key="3"
+        role={
+          Object {
+            "company": "Yodel/DHL",
+            "description": "Lead Uniface developer responsible for the core parcel delivery system",
+            "id": 3,
+            "title": "Lead Developer",
+            "year": "(2011 - 2016)",
+          }
+        }
+      />
+      <ExperienceItem
+        key="2"
+        role={
+          Object {
+            "company": "Yodel",
+            "description": "Web developer Ruby on Rails originally then React JS and some Java API experience. Exposed to TDD, Docker and Kafka",
+            "id": 2,
+            "title": "Web Developer",
+            "year": "(2016 - Jan 2018)",
+          }
+        }
+      />
+      <ExperienceItem
+        key="1"
+        role={
+          Object {
+            "company": "Three Media Associates",
+            "description": "Full stack developer exposed to Angular, C# and NodeJS",
+            "id": 1,
+            "title": "Full Stack Developer",
+            "year": "(2018 - present)",
+          }
+        }
+      />
+    </div>
   </div>
 </section>
 `;

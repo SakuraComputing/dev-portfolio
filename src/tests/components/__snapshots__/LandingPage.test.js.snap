@@ -46,8 +46,8 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
         <Project
           latestproject={
             Object {
-              "description1": "A platform that allows developers to connect with one another.",
-              "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+              "description1": "A platform that allows developers to connect with one another and share knowledge",
+              "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer). Using React Redux.",
               "exampleURL": "http://devconnector-app.herokuapp.com/",
               "imagePath": "assets/images/projects/project-main.png",
               "synopsis": "A Facebook for Developers",
@@ -57,35 +57,35 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           projects={
             Array [
               Object {
-                "description1": "A platform that allows developers to connect with one another.",
-                "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
-                "exampleURL": "http://devconnector-app.herokuapp.com/",
+                "description1": "Accommodation UI project serving up the UI for an accommodation application. Using React Redux.",
+                "description2": "Written in ReactJS serving up JSON",
+                "exampleURL": "",
                 "id": 1,
-                "imagePath": "assets/images/projects/devconnector.png",
-                "synopsis": "A Facebook for Developers",
-                "title": "Developer Connector",
+                "imagePath": "assets/images/projects/project-2.png",
+                "synopsis": "Hotel Booking Application",
+                "title": "Accommodation UI - based on Booking.com",
               },
               Object {
                 "description1": "Hotel Application built using Mongo, Express, Angular and Node.",
-                "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+                "description2": "Written in Angular, Express, Mongo Database (local), NodeJS (API layer)",
                 "exampleURL": "",
                 "id": 2,
                 "imagePath": "assets/images/projects/project-2.png",
-                "synopsis": "A Facebook for Developers",
+                "synopsis": "Sample Hotel Application demonstrating MEAN stack",
                 "title": "Mean Hotel Application",
               },
               Object {
                 "description1": "Proof of concept written using React JS and Node",
-                "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+                "description2": "Written in ReactJS (Redux), Express, Mongo Database (local), NodeJS (API layer).",
                 "exampleURL": "https://react-son-of-sabre.herokuapp.com/",
                 "id": 3,
                 "imagePath": "assets/images/projects/project-3.png",
-                "synopsis": "A Facebook for Developers",
+                "synopsis": "Parcel Tracking System POC",
                 "title": "Sabre Proof of Concept",
               },
               Object {
                 "description1": "Expensify application written in ReactJS using Firebase as the datastore.",
-                "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+                "description2": "Written in ReactJS with a Firebase Datastore",
                 "exampleURL": "https://react-course-ew-expensify.herokuapp.com/",
                 "id": 4,
                 "imagePath": "assets/images/projects/project-4.png",
@@ -98,7 +98,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "exampleURL": "https://liverpool-kendo-club.herokuapp.com/",
                 "id": 5,
                 "imagePath": "assets/images/projects/project-5.png",
-                "synopsis": "A Facebook for Developers",
+                "synopsis": "Live application serving club members",
                 "title": "Liverpool Kendo Club",
               },
             ]
@@ -108,7 +108,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           otherprojects={
             Array [
               Object {
-                "description": "Drag and Drop kanban board framework with tests",
+                "description": "Drag and Drop kanban board framework with tests. Using Flux.",
                 "github": "https://github.com/SakuraComputing/kanban_board",
                 "id": 1,
                 "title": "Kanban Board",
@@ -196,11 +196,16 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "level": "Competant",
                 "title": "NodeJS",
               },
+              Object {
+                "bar": "90%",
+                "id": 6,
+                "level": "Expert",
+                "title": "Uniface",
+              },
             ]
           }
           skillsummary="These are my core skills you check out other technologies I have been exposed."
         />
-        <TestimonialsAside />
         <EducationAside
           education={
             Array [
@@ -258,7 +263,6 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             ]
           }
         />
-        <ConferenceAside />
         <CreditsAside />
       </div>
     </div>

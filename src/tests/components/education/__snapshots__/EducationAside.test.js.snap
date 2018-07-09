@@ -14,7 +14,30 @@ exports[`EducationAside Section should render correctly 1`] = `
     </h2>
     <div
       className="content"
-    />
+    >
+      <Item
+        item={
+          Object {
+            "id": 1,
+            "institution": "Leeds University",
+            "qualifiation": "BSc Degree",
+            "year": "(1989-1991)",
+          }
+        }
+        key="1"
+      />
+      <Item
+        item={
+          Object {
+            "id": 2,
+            "institution": "South Trafford College",
+            "qualifiation": "A Levels (BBC)",
+            "year": "(1988-1989)",
+          }
+        }
+        key="2"
+      />
+    </div>
   </div>
 </aside>
 `;
