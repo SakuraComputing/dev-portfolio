@@ -24,7 +24,6 @@ exports[`Other Projects Section should render correctly 1`] = `
     <p>
       <a
         className="more-link"
-        href="https://github.com/SakuraComputing/embDocs"
         target="_blank"
       >
         <i
