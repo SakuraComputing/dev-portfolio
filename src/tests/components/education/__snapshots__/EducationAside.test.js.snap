@@ -1,5 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`EducationAside Section should not render any education if nothing paseed in 1`] = `
+<aside
+  className="education aside section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Education
+    </h2>
+    <div
+      className="content"
+    />
+  </div>
+</aside>
+`;
+
 exports[`EducationAside Section should render correctly 1`] = `
 <aside
   className="education aside section"

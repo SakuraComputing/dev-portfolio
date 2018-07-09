@@ -23,4 +23,10 @@ describe('EducationAside Section', () => {
         const wrapper = shallow(<EducationAside education={education}/>);
         expect(wrapper).toMatchSnapshot();
     });
+    it('should not render any education if nothing paseed in', () => {
+        const education = [];
+        const wrapper = shallow(<EducationAside education={education}/>);
+        expect(wrapper).toMatchSnapshot();
+    });
+
 });

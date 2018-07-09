@@ -10,7 +10,7 @@ class LanguagesAside extends React.Component {
 
         if(languages.length > 0) {
             languageItem = languages.map(language => (
-                <Language language={language}/>
+                <Language key={language.title} language={language}/>
                 )
             )
         }

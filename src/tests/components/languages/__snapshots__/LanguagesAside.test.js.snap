@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LanguagesAside Section should render correctly 1`] = `
+exports[`LanguagesAside Section should not render any languages if nothing passed in 1`] = `
 <aside
   className="languages aside section"
 >
@@ -18,6 +18,50 @@ exports[`LanguagesAside Section should render correctly 1`] = `
       <ul
         className="list-unstyled"
       />
+    </div>
+  </div>
+</aside>
+`;
+
+exports[`LanguagesAside Section should render correctly 1`] = `
+<aside
+  className="languages aside section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Languages
+    </h2>
+    <div
+      className="content"
+    >
+      <ul
+        className="list-unstyled"
+      >
+        <Language
+          key="Tuvan"
+          language={
+            Object {
+              "level": "Fluent",
+              "rating": 5,
+              "title": "Tuvan",
+            }
+          }
+        />
+        <Language
+          key="Japanese"
+          language={
+            Object {
+              "level": "Basic",
+              "rating": 1,
+              "title": "Japanese",
+            }
+          }
+        />
+      </ul>
     </div>
   </div>
 </aside>
