@@ -4,15 +4,12 @@ import About from '../components/About';
 import Project from './projects/Project';
 import OtherProjects from './projects/OtherProjects';
 import Experience from './experience/Experience';
-import Github from '../components/Github';
 import InfoAside from '../components/InfoAside';
 import SkillsAside from './skills/SkillsAside';
-import TestimonialsAside from '../components/TestimonialsAside';
 import EducationAside from './education/EducationAside';
 import LanguagesAside from './languages/LanguagesAside';
 import BlogAside from '../components/BlogAside';
 import MusicAside from './music/MusicAside';
-import ConferenceAside from '../components/ConferenceAside';
 import CreditsAside from '../components/CreditsAside';
 import Footer from '../components/Footer';
 import profile_json from '../../data/profile';
@@ -54,7 +51,6 @@ class LandingPage  extends React.Component {
                             <Project projects={projects} latestproject={latestproject}/>
                             <OtherProjects otherprojects={otherprojects}/>
                             <Experience experience={experience}/>
-                            <Github/>
                         </div>
                         <div className="secondary col-md-4 col-sm-12 col-xs-12">
                             <InfoAside infoaside={infoaside}/>
