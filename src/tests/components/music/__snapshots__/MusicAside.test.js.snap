@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MusicAside Section should render correctly 1`] = `
+exports[`MusicAside Section should display no records found if none passed in 1`] = `
 <aside
   className="list music aside section"
 >
@@ -21,6 +21,48 @@ exports[`MusicAside Section should render correctly 1`] = `
         <h4>
           No Songs Found.......
         </h4>
+      </ul>
+    </div>
+  </div>
+</aside>
+`;
+
+exports[`MusicAside Section should render correctly 1`] = `
+<aside
+  className="list music aside section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Favourite coding music
+    </h2>
+    <div
+      className="content"
+    >
+      <ul
+        className="list-unstyled"
+      >
+        <Songs
+          key="1"
+          song={
+            Object {
+              "id": 1,
+              "title": "Test Song",
+            }
+          }
+        />
+        <Songs
+          key="2"
+          song={
+            Object {
+              "id": 2,
+              "title": "Test Song 2",
+            }
+          }
+        />
       </ul>
     </div>
   </div>

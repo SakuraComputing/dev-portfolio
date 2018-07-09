@@ -22,6 +22,105 @@ exports[`Latest Project Section should render correctly 1`] = `
           className="title"
         >
           <a
+            href="http://devconnector-app.herokuapp.com/"
+            target="_blank"
+          >
+            Developer Connector
+          </a>
+        </h3>
+        <p
+          className="summary"
+        >
+          A Facebook for Developers
+        </p>
+        <div
+          className="featured-image"
+        >
+          <a
+            href="http://devconnector-app.herokuapp.com/"
+            target="_blank"
+          >
+            <img
+              alt="project name"
+              className="img-responsive project-image"
+              src="assets/images/projects/project-main.png"
+            />
+          </a>
+          <div
+            className="ribbon"
+          >
+            <div
+              className="text"
+            >
+              New
+            </div>
+          </div>
+        </div>
+        <div
+          className="desc text-left"
+        >
+          <p>
+            A platform that allows developers to connect with one another.
+          </p>
+          <p>
+            Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)
+          </p>
+        </div>
+        <a
+          className="btn btn-cta-secondary"
+          href="http://devconnector-app.herokuapp.com/"
+          target="_blank"
+        >
+          <i
+            className="fa fa-thumbs-o-up"
+          />
+           Back my project
+        </a>
+      </div>
+      <hr
+        className="divider"
+      />
+      <ProjectItem
+        key="1"
+        project={
+          Object {
+            "description1": "A platform that allows developers to connect with one another.",
+            "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+            "exampleURL": "http://devconnector-app.herokuapp.com/",
+            "id": 1,
+            "imagePath": "assets/images/projects/devconnector.png",
+            "synopsis": "A Facebook for Developers",
+            "title": "Developer Connector",
+          }
+        }
+      />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Latest Project Section should render nothing if no projects are passed in 1`] = `
+<section
+  className="latest section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Latest Projects
+    </h2>
+    <div
+      className="content"
+    >
+      <div
+        className="item featured text-center"
+      >
+        <h3
+          className="title"
+        >
+          <a
             target="_blank"
           />
         </h3>

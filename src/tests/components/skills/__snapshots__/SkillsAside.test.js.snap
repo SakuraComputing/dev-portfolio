@@ -48,3 +48,33 @@ exports[`SkillsAside Section should render correctly 1`] = `
   </div>
 </aside>
 `;
+
+exports[`SkillsAside Section should render no skills found if none passed in 1`] = `
+<aside
+  className="skills aside section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Skills
+    </h2>
+    <div
+      className="content"
+    >
+      <p
+        className="intro"
+      />
+      <div
+        className="skillset"
+      >
+        <h4>
+          No skillsaside found....... 
+        </h4>
+      </div>
+    </div>
+  </div>
+</aside>
+`;

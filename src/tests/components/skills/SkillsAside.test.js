@@ -23,6 +23,9 @@ describe('SkillsAside Section', () => {
         const wrapper = shallow(<SkillsAside skillsaside={skillsaside}/>);
         expect(wrapper).toMatchSnapshot();
     });
-
-
+    it('should render no skills found if none passed in', () => {
+        const skillsaside = [];
+        const wrapper = shallow(<SkillsAside skillsaside={skillsaside}/>);
+        expect(wrapper).toMatchSnapshot();
+    });
 });

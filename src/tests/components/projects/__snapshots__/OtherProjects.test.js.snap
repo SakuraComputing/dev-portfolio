@@ -15,6 +15,49 @@ exports[`Other Projects Section should render correctly 1`] = `
     <div
       className="content"
     >
+      <OtherProjectItem
+        key="1"
+        otherproject={
+          Object {
+            "description": "Drag and Drop kanban board framework with tests",
+            "github": "https://github.com/SakuraComputing/kanban_board",
+            "id": 1,
+            "title": "Kanban Board",
+          }
+        }
+      />
+      <OtherProjectItem
+        key="2"
+        otherproject={
+          Object {
+            "description": "Basic Booking.com mock up rendering JSON data using Redux. Tested using Jest",
+            "github": "https://github.com/SakuraComputing/accom-ui",
+            "id": 2,
+            "title": "Accommodation UI",
+          }
+        }
+      />
+      <p />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Other Projects Section should render nothing if no projects are passed in 1`] = `
+<section
+  className="projects section"
+>
+  <div
+    className="section-inner"
+  >
+    <h2
+      className="heading"
+    >
+      Other Projects
+    </h2>
+    <div
+      className="content"
+    >
       <p />
     </div>
   </div>
