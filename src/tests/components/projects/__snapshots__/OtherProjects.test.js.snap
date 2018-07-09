@@ -16,15 +16,6 @@ exports[`Other Projects Section should render correctly 1`] = `
       className="content"
     >
       <p />
-      <a
-        className="btn btn-cta-secondary"
-        href="#"
-      >
-        More on CoderWall 
-        <i
-          className="fa fa-chevron-right"
-        />
-      </a>
     </div>
   </div>
 </section>

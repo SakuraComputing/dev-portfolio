@@ -79,7 +79,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
                 "exampleURL": "https://react-son-of-sabre.herokuapp.com/",
                 "id": 3,
-                "imagePath": "assets/images/projects/project-3.png",
+                "imagePath": "assets/images/projects/sabre.png",
                 "synopsis": "A Facebook for Developers",
                 "title": "Sabre Proof of Concept",
               },
@@ -88,17 +88,17 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
                 "exampleURL": "https://react-course-ew-expensify.herokuapp.com/",
                 "id": 4,
-                "imagePath": "assets/images/projects/project-4.png",
+                "imagePath": "assets/images/projects/expensify.png",
                 "synopsis": "A Facebook for Developers",
                 "title": "Expensify Application",
               },
               Object {
-                "description1": "Example live apllication using React JS.",
+                "description1": "Example live application using React JS.",
                 "description2": "Written in ReactJS with a Firebase Datastore",
                 "exampleURL": "https://liverpool-kendo-club.herokuapp.com/",
                 "id": 5,
-                "imagePath": "assets/images/projects/project-5.png",
-                "synopsis": "A Facebook for Developers",
+                "imagePath": "assets/images/projects/lkc.png",
+                "synopsis": "Liverpool Kendo Club Website",
                 "title": "Liverpool Kendo Club",
               },
             ]
@@ -114,9 +114,15 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "title": "Kanban Board",
               },
               Object {
+                "description": "Basic Booking.com mock up rendering JSON data using Redux. Tested using Jest",
+                "github": "https://github.com/SakuraComputing/accom-ui",
+                "id": 2,
+                "title": "Accommodation UI",
+              },
+              Object {
                 "description": "Ember test application including calculator",
                 "github": "https://github.com/SakuraComputing/embDocs",
-                "id": 2,
+                "id": 3,
                 "title": "Ember test application",
               },
             ]
@@ -144,7 +150,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "description": "Full stack developer exposed to Angular, C# and NodeJS",
                 "id": 1,
                 "title": "Full Stack Developer",
-                "year": "(2018 - present)",
+                "year": "(Jan 2018 - May 2018)",
               },
             ]
           }
@@ -200,7 +206,6 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           }
           skillsummary="These are my core skills you check out other technologies I have been exposed."
         />
-        <TestimonialsAside />
         <EducationAside
           education={
             Array [
@@ -258,7 +263,6 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             ]
           }
         />
-        <ConferenceAside />
         <CreditsAside />
       </div>
     </div>

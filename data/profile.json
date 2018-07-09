@@ -111,7 +111,7 @@
       "id": 3,
       "title": "Sabre Proof of Concept",
       "synopsis": "A Facebook for Developers",
-      "imagePath": "assets/images/projects/project-3.png",
+      "imagePath": "assets/images/projects/sabre.png",
       "description1": "Proof of concept written using React JS and Node",
       "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
       "exampleURL": "https://react-son-of-sabre.herokuapp.com/"
@@ -120,7 +120,7 @@
       "id": 4,
       "title": "Expensify Application",
       "synopsis": "A Facebook for Developers",
-      "imagePath": "assets/images/projects/project-4.png",
+      "imagePath": "assets/images/projects/expensify.png",
       "description1": "Expensify application written in ReactJS using Firebase as the datastore.",
       "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
       "exampleURL": "https://react-course-ew-expensify.herokuapp.com/"
@@ -128,9 +128,9 @@
     {
       "id": 5,
       "title": "Liverpool Kendo Club",
-      "synopsis": "A Facebook for Developers",
-      "imagePath": "assets/images/projects/project-5.png",
-      "description1": "Example live apllication using React JS.",
+      "synopsis": "Liverpool Kendo Club Website",
+      "imagePath": "assets/images/projects/lkc.png",
+      "description1": "Example live application using React JS.",
       "description2": "Written in ReactJS with a Firebase Datastore",
       "exampleURL": "https://liverpool-kendo-club.herokuapp.com/"
     }
@@ -144,6 +144,12 @@
     },
     {
       "id": 2,
+      "title": "Accommodation UI",
+      "description": "Basic Booking.com mock up rendering JSON data using Redux. Tested using Jest",
+      "github": "https://github.com/SakuraComputing/accom-ui"
+    },
+    {
+      "id": 3,
       "title": "Ember test application",
       "description": "Ember test application including calculator",
       "github": "https://github.com/SakuraComputing/embDocs"
@@ -168,7 +174,7 @@
         "id": 1,
         "title": "Full Stack Developer",
         "company": "Three Media Associates",
-        "year": "(2018 - present)",
+        "year": "(Jan 2018 - May 2018)",
         "description": "Full stack developer exposed to Angular, C# and NodeJS"
       }
   ],

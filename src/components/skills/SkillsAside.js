@@ -28,8 +28,6 @@ class SkillsAside extends React.Component {
                         <div className="skillset">
                             {skillItems}
                         </div>
-                        <p><a className="more-link" href="#"><i className="fa fa-external-link"></i> More on Coderwall</a>
-                        </p>
                     </div>
                 </div>
             </aside>
