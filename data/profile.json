@@ -200,5 +200,22 @@
       "level": "Basic",
       "rating": 1
     }
+  ],
+  "books": [
+    {
+      "id": 0,
+      "title": "Survive JS - Webpack and React",
+      "description": "A guide to programming in React and Webpack",
+      "author": "Juho Vepsäläinen",
+      "link": "http://leanpub.com/survivejs_webpack_react"
+    },
+    {
+      "id": 1,
+      "title": "Head First Design Patterns",
+      "description": "A guide to Java design patterns.",
+      "author": "Freeman and Robson",
+      "link": "https://www.amazon.co.uk/Head-First-Design-Patterns-Freeman/dp/0596007124"
+    }
+
   ]
 }

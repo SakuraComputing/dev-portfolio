@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book Section should render correctly 1`] = `
+<div>
+  <div
+    className="item"
+  >
+    <h3
+      className="title"
+    >
+      <a
+        href="#"
+      />
+       
+      <span
+        className="label label-theme"
+      />
+    </h3>
+    <p
+      className="summary"
+    />
+    <p
+      className="summary"
+    />
+    <p>
+      <a
+        className="more-link"
+        target="_blank"
+      >
+        <i
+          className="fa fa-external-link"
+        />
+         Purchase here
+      </a>
+    </p>
+  </div>
+</div>
+`;
