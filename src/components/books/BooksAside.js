@@ -11,7 +11,7 @@ class BooksAside extends Component {
 
         if(books.length > 0) {
             singleBook = books.map(book => (
-                <Book book={book}/>
+                <Book key={book.id} book={book}/>
             ));
         }
 

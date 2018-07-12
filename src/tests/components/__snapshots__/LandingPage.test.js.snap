@@ -236,6 +236,26 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             ]
           }
         />
+        <BooksAside
+          books={
+            Array [
+              Object {
+                "author": "Juho Vepsäläinen",
+                "description": "A guide to programming in React and Webpack",
+                "id": 0,
+                "link": "http://leanpub.com/survivejs_webpack_react",
+                "title": "Survive JS - Webpack and React",
+              },
+              Object {
+                "author": "Freeman and Robson",
+                "description": "A guide to Java design patterns.",
+                "id": 1,
+                "link": "https://www.amazon.co.uk/Head-First-Design-Patterns-Freeman/dp/0596007124",
+                "title": "Head First Design Patterns",
+              },
+            ]
+          }
+        />
         <MusicAside
           musicaside={
             Array [
