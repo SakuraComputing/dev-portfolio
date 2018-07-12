@@ -4,7 +4,7 @@ const Book = (props) => {
     return (
         <div>
             <div className="item">
-                <h4 className="title"><a href="#">{props.book.title}</a> <span
+                <h4 className="title">{props.book.title} <span
                     className="label label-theme">{props.book.author}</span></h4>
                 <p className="summary">{props.book.description}</p>
                 <p className="summary">{props.book.author}</p>
