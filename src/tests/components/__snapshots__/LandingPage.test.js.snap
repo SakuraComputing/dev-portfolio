@@ -236,7 +236,6 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             ]
           }
         />
-        <BlogAside />
         <MusicAside
           musicaside={
             Array [

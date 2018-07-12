@@ -8,7 +8,6 @@ import InfoAside from '../components/InfoAside';
 import SkillsAside from './skills/SkillsAside';
 import EducationAside from './education/EducationAside';
 import LanguagesAside from './languages/LanguagesAside';
-import BlogAside from '../components/BlogAside';
 import MusicAside from './music/MusicAside';
 import CreditsAside from '../components/CreditsAside';
 import Footer from '../components/Footer';
@@ -57,7 +56,6 @@ class LandingPage  extends React.Component {
                             <SkillsAside skillsaside={skillsaside} skillsummary={skillsummary}/>
                             <EducationAside education={education}/>
                             <LanguagesAside languages={languages}/>
-                            <BlogAside/>
                             <MusicAside musicaside={musicaside}/>
                             <CreditsAside/>
                         </div>
