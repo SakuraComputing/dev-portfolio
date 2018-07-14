@@ -33,6 +33,8 @@ yarn run test -- -u
 
 ## Deployment
 
+Deployed to Heroku
+
 ### Updates
 
 Feel free to make pull requests and improve
