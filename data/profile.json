@@ -91,7 +91,7 @@
     "synopsis": "A Facebook for Developers",
     "imagePath": "assets/images/projects/project-main.png",
     "description1": "A platform that allows developers to connect with one another.",
-    "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+    "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer). Bootstrap Styling.",
     "exampleURL": "http://devconnector-app.herokuapp.com/"
   },
   "projects": [
@@ -106,20 +106,20 @@
     },
     {
       "id": 3,
-      "title": "Sabre Proof of Concept",
-      "synopsis": "A Facebook for Developers",
+      "title": "Sabre Parcel Delivery System (POC)",
+      "synopsis": "Sabre",
       "imagePath": "assets/images/projects/sabre.png",
-      "description1": "Proof of concept written using React JS and Node",
-      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+      "description1": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+      "description2": "Intellectual Property my own",
       "exampleURL": "https://react-son-of-sabre.herokuapp.com/"
     },
     {
       "id": 4,
       "title": "Expensify Application",
-      "synopsis": "A Facebook for Developers",
+      "synopsis": "Expense Handler",
       "imagePath": "assets/images/projects/expensify.png",
       "description1": "Expensify application written in ReactJS using Firebase as the datastore.",
-      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+      "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer). SASS Styling",
       "exampleURL": "https://react-course-ew-expensify.herokuapp.com/"
     },
     {
@@ -128,7 +128,7 @@
       "synopsis": "Liverpool Kendo Club Website",
       "imagePath": "assets/images/projects/lkc.png",
       "description1": "Example live application using React JS.",
-      "description2": "Written in ReactJS with a Firebase Datastore",
+      "description2": "Written in ReactJS with a Firebase Datastore. SASS Styling",
       "exampleURL": "https://liverpool-kendo-club.herokuapp.com/"
     }
   ],
@@ -204,18 +204,17 @@
   "books": [
     {
       "id": 0,
-      "title": "Survive JS - Webpack and React",
-      "description": "A guide to programming in React and Webpack",
-      "author": "Juho Vepsäläinen",
-      "link": "http://leanpub.com/survivejs_webpack_react"
-    },
-    {
-      "id": 1,
       "title": "Head First Design Patterns",
       "description": "A guide to Java design patterns.",
       "author": "Freeman and Robson",
       "link": "https://www.amazon.co.uk/Head-First-Design-Patterns-Freeman/dp/0596007124"
+    },
+    {
+      "id": 1,
+      "title": "Survive JS - Webpack and React",
+      "description": "A guide to programming in React and Webpack",
+      "author": "Juho Vepsäläinen",
+      "link": "http://leanpub.com/survivejs_webpack_react"
     }
-
   ]
 }

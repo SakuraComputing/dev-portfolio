@@ -8,9 +8,6 @@ exports[`Book Section should render correctly 1`] = `
     <h4
       className="title"
     >
-      <a
-        href="#"
-      />
        
       <span
         className="label label-theme"
