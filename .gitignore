@@ -4,6 +4,10 @@ node_modules/*
 *.log
 yarn.lock
 public/dist
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
 coverage/
 config/*
 .nyc_output/
