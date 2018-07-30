@@ -39,7 +39,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
         <About
           about={
             Object {
-              "text": "Front end developer with over twenty years of experience in software delivery.  Now specialising in ReactJS but also experience in vanilla javascript and other MVC frameworks such as Angular. Focusing toward TDD approach to software production.",
+              "text": "Front end developer with over twenty years of experience in software delivery.  Originally a Uniface developer but in the last two years I have switched to a Web design role using mainly ReactJS but I also experience in other frameworks such as Angular and a grounding vanilla javascript. Now focusing toward a TDD approach to supply quality software products.",
             }
           }
         />
@@ -133,21 +133,21 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             Array [
               Object {
                 "company": "Yodel/DHL",
-                "description": "Lead Uniface developer responsible for regular updates and maintenance of the nationwide parcel delivery system.",
+                "description": "Lead Uniface developer responsible for regular updates and maintenance of the nationwide parcel delivery system. All project work carried out with a waterfall approach.",
                 "id": 3,
                 "title": "Lead Developer",
                 "year": "(2011 - 2016)",
               },
               Object {
                 "company": "Yodel",
-                "description": "Web developer responsible for the delivery of projects in Ruby on Rails and React JS.  Experience gained in JQuery and vanilla Javascript.  First experienced TDD, Continous Delivery and the use of build Pipelines (Jenkins).",
+                "description": "Web developer responsible for the delivery of Agile projects in Ruby on Rails and React JS.  Experience gained in JQuery and vanilla Javascript.  First experienced TDD, Continuous Delivery and the use of build Pipelines (Jenkins).",
                 "id": 2,
                 "title": "Web Developer",
                 "year": "(2016 - Jan 2018)",
               },
               Object {
                 "company": "Three Media Associates",
-                "description": "Full stack developer responsible for projects around the broadcast and conetnt distribution system which consisted of an Angular UI, NodeJS API layer along with C# watcher modules.",
+                "description": "Full stack developer responsible for projects around the broadcast and content distribution system which consisted of an Angular UI, NodeJS API layer along with C# watcher modules.",
                 "id": 1,
                 "title": "Full Stack Developer",
                 "year": "(Jan 2018 - May 2018)",
@@ -184,9 +184,9 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "title": "CSS3",
               },
               Object {
-                "bar": "81%",
+                "bar": "71%",
                 "id": 3,
-                "level": "Expert",
+                "level": "Advanced",
                 "title": "Javascript",
               },
               Object {
@@ -202,7 +202,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "title": "NodeJS",
               },
               Object {
-                "bar": "57%",
+                "bar": "60%",
                 "id": 6,
                 "level": "Competant",
                 "title": "REST",
