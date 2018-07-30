@@ -23,7 +23,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             "url": "",
           },
         },
-        "title": "Senior Web Developer",
+        "title": "Front End Developer",
       }
     }
   />
@@ -56,6 +56,15 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           }
           projects={
             Array [
+              Object {
+                "description1": "Omnifood compnay website displaying nice styling with HTML5, CSS3 (including animations) and JQuery.",
+                "description2": "HTML, CSS, JQuery, PHP",
+                "exampleURL": "https://2zqhhorr5cs4zipkjehl2a-on.drv.tw/omnifood/",
+                "id": 1,
+                "imagePath": "assets/images/projects/omnifood.png",
+                "synopsis": "Web page demonstrating HTML and CSS",
+                "title": "Omnifood Static Web Page",
+              },
               Object {
                 "description1": "Hotel Application built using Mongo, Express, Angular and Node.",
                 "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
@@ -124,14 +133,14 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             Array [
               Object {
                 "company": "Yodel/DHL",
-                "description": "Lead Uniface developer responsible for regular updates and maintenance of the core parcel delivery system",
+                "description": "Lead Uniface developer responsible for regular updates and maintenance of the nationwide parcel delivery system.",
                 "id": 3,
                 "title": "Lead Developer",
                 "year": "(2011 - 2016)",
               },
               Object {
                 "company": "Yodel",
-                "description": "Web developer Ruby on Rails originally then React JS and some Java API experience.",
+                "description": "Web developer responsible for the delivery of projects in Ruby on Rails and React JS.  Experience gained in JQuery and vanilla Javascript.  First experienced TDD, Continous Delivery and the use of build Pipelines (Jenkins).",
                 "id": 2,
                 "title": "Web Developer",
                 "year": "(2016 - Jan 2018)",

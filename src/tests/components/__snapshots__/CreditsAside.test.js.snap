@@ -10,7 +10,7 @@ exports[`CreditsAside Section should render correctly 1`] = `
     <h2
       className="heading"
     >
-      Credits
+      Technologies Used
     </h2>
     <div
       className="content"
@@ -20,24 +20,57 @@ exports[`CreditsAside Section should render correctly 1`] = `
       >
         <li>
           <a
-            href="http://getbootstrap.com/"
+            href="https://reactjs.org/"
             target="_blank"
           >
             <i
               className="fa fa-external-link"
             />
-             Bootstrap
+            React JS
           </a>
         </li>
         <li>
           <a
-            href="http://fortawesome.github.io/Font-Awesome/"
+            href="https://angular.io/"
             target="_blank"
           >
             <i
               className="fa fa-external-link"
             />
-             FontAwesome
+            Angular
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://nodejs.org/en/"
+            target="_blank"
+          >
+            <i
+              className="fa fa-external-link"
+            />
+            Node JS
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://expressjs.com/"
+            target="_blank"
+          >
+            <i
+              className="fa fa-external-link"
+            />
+            Express
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.mongodb.com/"
+            target="_blank"
+          >
+            <i
+              className="fa fa-external-link"
+            />
+            Mongo
           </a>
         </li>
         <li>
@@ -53,39 +86,38 @@ exports[`CreditsAside Section should render correctly 1`] = `
         </li>
         <li>
           <a
-            href="https://github.com/IonicaBizau/github-calendar"
+            href="http://getbootstrap.com/"
             target="_blank"
           >
             <i
               className="fa fa-external-link"
             />
-             GitHub Calendar Plugin
+             Bootstrap
           </a>
         </li>
         <li>
           <a
-            href="http://caseyscarborough.com/projects/github-activity/"
+            href="http://sass-lang.com/"
             target="_blank"
           >
             <i
               className="fa fa-external-link"
             />
-             GitHub Activity Stream
+             SASS
           </a>
         </li>
         <li>
           <a
-            href="https://github.com/sdepold/jquery-rss"
+            href="http://fortawesome.github.io/Font-Awesome/"
             target="_blank"
           >
             <i
               className="fa fa-external-link"
             />
-             jQuery RSS
+             FontAwesome
           </a>
         </li>
       </ul>
-      <hr />
     </div>
   </div>
 </aside>

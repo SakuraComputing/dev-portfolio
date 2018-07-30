@@ -4,7 +4,7 @@ export const Header = (props) => (
 
     <header className="header">
         <div className="container">
-            <img className="profile-image img-responsive pull-left" src="assets/images/sakura.png" alt="Ewan Bauld"/>
+            <img className="profile-image img-responsive pull-left" src="assets/images/eb.png" alt="Ewan Bauld"/>
             <div className="profile-content pull-left">
                 <h1 className="name">{props.header.name}</h1>
                 <h2 className="desc">{props.header.title}</h2>

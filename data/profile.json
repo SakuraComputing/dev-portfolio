@@ -1,7 +1,7 @@
 {
   "header":{
     "name": "Ewan Bauld",
-    "title": "Senior Web Developer",
+    "title": "Front End Developer",
     "social":{
       "twitter":{
         "url": ""
@@ -21,7 +21,7 @@
     }
   },
   "about": {
-    "text": "Front end developer with over twenty years of experience in software delivery.  Now specialising in ReactJS but also experience in vanilla javascript and other MVC frameworks such as Angular. Focusing toward TDD approach to software production."
+    "text": "Front end developer with over twenty years of experience in software delivery.  Originally a Uniface developer but in the last two years I have switched to a Web design role using mainly ReactJS but I also experience in other frameworks such as Angular and a grounding vanilla javascript. Now focusing toward a TDD approach to supply quality software products."
   },
   "infoaside": {
     "location": "Manchester, UK",
@@ -44,8 +44,8 @@
     {
       "id": 3,
       "title": "Javascript",
-      "level": "Expert",
-      "bar": "81%"
+      "level": "Advanced",
+      "bar": "71%"
     },
     {
       "id": 4,
@@ -63,7 +63,7 @@
       "id": 6,
       "title": "REST",
       "level": "Competant",
-      "bar": "57%"
+      "bar": "60%"
     }
   ],
   "skillsummary": "These are my core skills other technologies I have been recently exposed to Java, Docker, Jenkins.",
@@ -95,6 +95,15 @@
     "exampleURL": "http://devconnector-app.herokuapp.com/"
   },
   "projects": [
+    {
+      "id": 1,
+      "title": "Omnifood Static Web Page",
+      "synopsis": "Web page demonstrating HTML and CSS",
+      "imagePath": "assets/images/projects/omnifood.png",
+      "description1": "Omnifood compnay website displaying nice styling with HTML5, CSS3 (including animations) and JQuery.",
+      "description2": "HTML, CSS, JQuery, PHP",
+      "exampleURL": "https://2zqhhorr5cs4zipkjehl2a-on.drv.tw/omnifood/"
+    },
     {
       "id": 2,
       "title": "Mean Hotel Application",
@@ -158,21 +167,21 @@
         "title": "Lead Developer",
         "company": "Yodel/DHL",
         "year": "(2011 - 2016)",
-        "description": "Lead Uniface developer responsible for regular updates and maintenance of the core parcel delivery system"
+        "description": "Lead Uniface developer responsible for regular updates and maintenance of the nationwide parcel delivery system. All project work carried out with a waterfall approach."
       },
       {
         "id": 2,
         "title": "Web Developer",
         "company": "Yodel",
         "year": "(2016 - Jan 2018)",
-        "description": "Web developer Ruby on Rails originally then React JS and some Java API experience."
+        "description": "Web developer responsible for the delivery of Agile projects in Ruby on Rails and React JS.  Experience gained in JQuery and vanilla Javascript.  First experienced TDD, Continuous Delivery and the use of build Pipelines (Jenkins)."
       },
       {
         "id": 1,
         "title": "Full Stack Developer",
         "company": "Three Media Associates",
         "year": "(Jan 2018 - May 2018)",
-        "description": "Full stack developer responsible for projects around the broadcast and conetnt distribution system which consisted of an Angular UI, NodeJS API layer along with C# watcher modules."
+        "description": "Full stack developer responsible for projects around the broadcast and content distribution system which consisted of an Angular UI, NodeJS API layer along with C# watcher modules."
       }
   ],
   "education": [
