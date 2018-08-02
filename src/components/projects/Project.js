@@ -46,7 +46,7 @@ class Project extends React.Component {
                             </div>
                             <a className="btn btn-cta-secondary"
                                href={latestproject.exampleURL}
-                               target="_blank"><i className="fa fa-thumbs-o-up"></i> Open Project</a>
+                               target="_blank"><i className="fa fa-thumbs-o-up"></i> Demo</a>
                         </div>
                         <hr className="divider"/>
 
