@@ -121,12 +121,12 @@
     },
     {
       "id": 3,
-      "title": "Sabre Parcel Delivery System (POC)",
-      "synopsis": "Sabre",
-      "imagePath": "assets/images/projects/sabre.png",
-      "description1": "A POC I wrote using ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+      "title": "Bolton Kendo Club Website",
+      "synopsis": "Bolton Kendo",
+      "imagePath": "assets/images/projects/bolton-kendo-landing-page.png",
+      "description1": "A live system written using Vue JS, Express, Node API layer and Mongo (Cloud hosted)",
       "description2": "Intellectual Property my own",
-      "exampleURL": "https://react-son-of-sabre.herokuapp.com/"
+      "exampleURL": "https://bolton-kendo-club.herokuapp.com/"
     },
     {
       "id": 4,

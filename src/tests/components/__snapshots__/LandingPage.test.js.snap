@@ -23,7 +23,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             "url": "",
           },
         },
-        "title": "Front End Developer",
+        "title": "Front End Web Developer",
       }
     }
   />
@@ -39,15 +39,15 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
         <About
           about={
             Object {
-              "text": "Front end developer with over twenty years of experience in software delivery.  Originally a Uniface developer but in the last two years I have switched to a Web design role using mainly ReactJS but I also experience in other frameworks such as Angular and a grounding vanilla javascript. Now focusing toward a TDD approach to supply quality software products.",
+              "text": "I'm a front end developer with over twenty years of experience in software delivery.  Most recently I have cross trained into Javascript Front End Development using mainly ReactJS but have experience in other frameworks such as AngularJS along with a grounding in vanilla javascript I also possess good styling skills in HTML5/CSS3 and JQuery. Now focusing toward a TDD approach to supply quality software products to the end customer.",
             }
           }
         />
         <Project
           latestproject={
             Object {
-              "description1": "A platform that allows developers to connect with one another.",
-              "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer). Bootstrap Styling.",
+              "description1": "An application I wrote that allows developers to connect with one another.",
+              "description2": "I used ReactJS, Express, Mongo and Node for the API layer (MERN) and used Bootstrap for the styling and used Heroku to host the site.",
               "exampleURL": "http://devconnector-app.herokuapp.com/",
               "imagePath": "assets/images/projects/project-main.png",
               "synopsis": "A Facebook for Developers",
@@ -57,7 +57,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           projects={
             Array [
               Object {
-                "description1": "Omnifood compnay website displaying nice styling with HTML5, CSS3 (including animations) and JQuery.",
+                "description1": "Omnifood mock company website showcasing styling with HTML5, CSS3 (including animations) and JQuery.",
                 "description2": "HTML, CSS, JQuery, PHP",
                 "exampleURL": "https://2zqhhorr5cs4zipkjehl2a-on.drv.tw/omnifood/",
                 "id": 1,
@@ -66,7 +66,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "title": "Omnifood Static Web Page",
               },
               Object {
-                "description1": "Hotel Application built using Mongo, Express, Angular and Node.",
+                "description1": "Hotel Application I put together using Mongo, Express, Angular and Node.",
                 "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
                 "exampleURL": "",
                 "id": 2,
@@ -75,16 +75,16 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "title": "Mean Hotel Application",
               },
               Object {
-                "description1": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer)",
+                "description1": "A live system written using Vue JS, Express, Node API layer and Mongo (Cloud hosted)",
                 "description2": "Intellectual Property my own",
-                "exampleURL": "https://react-son-of-sabre.herokuapp.com/",
+                "exampleURL": "https://bolton-kendo-club.herokuapp.com/",
                 "id": 3,
                 "imagePath": "assets/images/projects/sabre.png",
-                "synopsis": "Sabre",
-                "title": "Sabre Parcel Delivery System (POC)",
+                "synopsis": "Bolton Kendo",
+                "title": "Bolton Kendo Club Website",
               },
               Object {
-                "description1": "Expensify application written in ReactJS using Firebase as the datastore.",
+                "description1": "Expensify application I wrote in ReactJS using Firebase as the datastore.",
                 "description2": "Written in ReactJS, Express, Mongo Database (mLab), NodeJS (API layer). SASS Styling",
                 "exampleURL": "https://react-course-ew-expensify.herokuapp.com/",
                 "id": 4,
@@ -93,7 +93,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "title": "Expensify Application",
               },
               Object {
-                "description1": "Example live application using React JS.",
+                "description1": "Example live application I wrote for LKC using React JS and Firebase.",
                 "description2": "Written in ReactJS with a Firebase Datastore. SASS Styling",
                 "exampleURL": "https://liverpool-kendo-club.herokuapp.com/",
                 "id": 5,
@@ -108,13 +108,13 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           otherprojects={
             Array [
               Object {
-                "description": "Drag and Drop kanban board framework with tests",
+                "description": "Drag and Drop kanban board framework with tests.",
                 "github": "https://github.com/SakuraComputing/kanban_board",
                 "id": 1,
                 "title": "Kanban Board",
               },
               Object {
-                "description": "Basic Booking.com mock up rendering JSON data using Redux. Tested using Jest",
+                "description": "Basic Booking.com mock up rendering JSON using Redux. Full test suite using Jest",
                 "github": "https://github.com/SakuraComputing/accom-ui",
                 "id": 2,
                 "title": "Accommodation UI",
@@ -133,14 +133,14 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             Array [
               Object {
                 "company": "Yodel/DHL",
-                "description": "Lead Uniface developer responsible for regular updates and maintenance of the nationwide parcel delivery system. All project work carried out with a waterfall approach.",
+                "description": "Lead Uniface developer responsible for regular updates and maintenance to the nationwide parcel delivery system. All project work carried out with a waterfall approach. ",
                 "id": 3,
                 "title": "Lead Developer",
                 "year": "(2011 - 2016)",
               },
               Object {
                 "company": "Yodel",
-                "description": "Web developer responsible for the delivery of Agile projects in Ruby on Rails and React JS.  Experience gained in JQuery and vanilla Javascript.  First experienced TDD, Continuous Delivery and the use of build Pipelines (Jenkins).",
+                "description": "Web developer responsible for the delivery of Agile projects in Ruby on Rails and React JS.  Experience gained in JQuery and vanilla Javascript.  First experienced TDD, Continuous Delivery and the use of build Pipelines (Jenkins).  All project work was carried out in Agile teams usint a fully colloborative approach in order to deliver software.",
                 "id": 2,
                 "title": "Web Developer",
                 "year": "(2016 - Jan 2018)",
@@ -207,9 +207,15 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "level": "Competant",
                 "title": "REST",
               },
+              Object {
+                "bar": "85%",
+                "id": 7,
+                "level": "Advanced",
+                "title": "GIT",
+              },
             ]
           }
-          skillsummary="These are my core skills other technologies I have been recently exposed to Java, Docker, Jenkins."
+          skillsummary="These are my core skills other technologies I have been exposed to commercially are Java, MongoDB, Docker and Jenkins."
         />
         <EducationAside
           education={
@@ -239,7 +245,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
               },
               Object {
                 "level": "Basic",
-                "rating": 1,
+                "rating": 2,
                 "title": "Japanese",
               },
             ]

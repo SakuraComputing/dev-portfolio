@@ -74,7 +74,7 @@ exports[`Latest Project Section should render correctly 1`] = `
           <i
             className="fa fa-thumbs-o-up"
           />
-           Back my project
+           Demo
         </a>
       </div>
       <hr
@@ -161,7 +161,7 @@ exports[`Latest Project Section should render nothing if no projects are passed 
           <i
             className="fa fa-thumbs-o-up"
           />
-           Back my project
+           Demo
         </a>
       </div>
       <hr
