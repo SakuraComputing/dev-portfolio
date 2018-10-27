@@ -1,6 +1,9 @@
 {
   "name": "dev-portfolio",
   "description": "Develeloper Portfolio Application",
+  "engines": {
+    "yarn": "1.10.1"
+  },
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
