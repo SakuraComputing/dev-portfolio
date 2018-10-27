@@ -79,7 +79,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "description2": "Intellectual Property my own",
                 "exampleURL": "https://bolton-kendo-club.herokuapp.com/",
                 "id": 3,
-                "imagePath": "assets/images/projects/sabre.png",
+                "imagePath": "assets/images/projects/bolton-kendo-landing-page.png",
                 "synopsis": "Bolton Kendo",
                 "title": "Bolton Kendo Club Website",
               },
@@ -164,7 +164,6 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             Object {
               "email": "ewan.bauld@gmail.com",
               "location": "Manchester, UK",
-              "website": "www.ewan.bauld.com",
             }
           }
         />
@@ -267,6 +266,13 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "id": 1,
                 "link": "http://leanpub.com/survivejs_webpack_react",
                 "title": "Survive JS - Webpack and React",
+              },
+              Object {
+                "author": "Charles Petzold",
+                "description": "A guide tour through Alan Turing's historic paper on computability and the Turing Machine.",
+                "id": 2,
+                "link": "https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055/ref=sr_1_3?ie=UTF8&qid=1540678797&sr=8-3&keywords=charles+petzold",
+                "title": "The Annotated Turing",
               },
             ]
           }

@@ -16,7 +16,7 @@ exports[`Footer Section should render correctly 1`] = `
       />
        by 
       <a
-        href="http://themes.3rdwavemedia.com"
+        href="/"
         target="_blank"
       >
         Xiaoying Riley

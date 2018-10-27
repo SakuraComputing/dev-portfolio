@@ -1,10 +1,7 @@
 {
   "name": "dev-portfolio",
   "description": "Develeloper Portfolio Application",
-  "version": "1.0.0",
-  "engines": {
-    "yarn": "1.6.0"
-  },
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -25,16 +22,10 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "body-parser": "^1.18.3",
-    "chai": "^4.1.2",
     "css-loader": "0.28.4",
-    "express": "^4.16.3",
     "extract-text-webpack-plugin": "3.0.0",
-    "firebase": "4.2.0",
     "history": "4.7.2",
     "identity-obj-proxy": "^3.0.0",
-    "mocha": "^5.2.0",
-    "moment": "2.19.3",
-    "mongoose": "^5.1.2",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
     "numeral": "2.0.6",
@@ -46,14 +37,9 @@
     "react-dom": "16.0.0",
     "react-modal": "2.2.2",
     "react-router-dom": "4.2.2",
-    "redux": "3.7.2",
-    "redux-mock-store": "1.2.3",
-    "redux-thunk": "2.2.0",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "supertest": "^3.1.0",
-    "uuid": "3.1.0",
-    "validator": "^10.2.0",
     "webpack": "3.1.0"
   },
   "devDependencies": {

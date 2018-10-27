@@ -3,11 +3,12 @@
 
 ## Introduction
 
-This is a simple web page rendered from json files. You can use this as a skeleton and use the styling to get up and running very quickly or add whatever you like either way it's based to help developers to get their wares out there.
+This is a simple web page rendered from json files. It's built using React JS and webpack. Jest is used as the test tool.
 
-React JS /Webpack.
-
-
+React JS 16.0 /
+Webpack 3.1.0 /
+BootStrap
+Jest 20.0.4
 
 ```aidl
 yarn install
@@ -31,13 +32,16 @@ Update Snapshots
 yarn run test -- -u
 ```
 
+## Webpack Dev Server
+
+```
+yarn run dev-server
+```
+
 ## Deployment
 
-Deployed to Heroku under......
+Deployed to Heroku
 
-### Updates
-
-Feel free to make pull requests and improve
 
 
 

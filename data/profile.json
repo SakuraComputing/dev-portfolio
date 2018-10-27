@@ -230,6 +230,13 @@
       "description": "A guide to programming in React and Webpack",
       "author": "Juho Vepsäläinen",
       "link": "http://leanpub.com/survivejs_webpack_react"
+    },
+    {
+      "id": 2,
+      "title": "The Annotated Turing",
+      "description": "A guide tour through Alan Turing's historic paper on computability and the Turing Machine.",
+      "author": "Charles Petzold",
+      "link": "https://www.amazon.co.uk/Annotated-Turing-Through-Historic-Computability/dp/0470229055/ref=sr_1_3?ie=UTF8&qid=1540678797&sr=8-3&keywords=charles+petzold"
     }
   ]
 }
