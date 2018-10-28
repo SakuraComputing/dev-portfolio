@@ -39,7 +39,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
         <About
           about={
             Object {
-              "text": "I'm a front end developer with over twenty years of experience in software delivery.  Most recently I have cross trained into Javascript Front End Development using mainly ReactJS but have experience in other frameworks such as AngularJS along with a grounding in vanilla javascript I also possess good styling skills in HTML5/CSS3 and JQuery. Now focusing toward a TDD approach to supply quality software products to the end customer.",
+              "text": "I'm a front end developer with over twenty years of experience in software delivery.  Most recently I have cross trained into Javascript Front End Development using mainly ReactJS but have experience in other frameworks such as AngularJS along with a grounding in vanilla javascript I also possess good styling skills in HTML5/CSS3.  Now focusing toward a TDD approach to supply quality software products to the end customer.",
             }
           }
         />
@@ -164,6 +164,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
             Object {
               "email": "ewan.bauld@gmail.com",
               "location": "Manchester, UK",
+              "website": "",
             }
           }
         />
@@ -171,25 +172,25 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           skillsaside={
             Array [
               Object {
-                "bar": "80%",
+                "bar": "70%",
                 "id": 1,
-                "level": "Expert",
+                "level": "Advanced",
                 "title": "ReactJS",
               },
               Object {
-                "bar": "70%",
+                "bar": "60%",
                 "id": 2,
-                "level": "Advanced",
+                "level": "Competant",
                 "title": "CSS3",
               },
               Object {
-                "bar": "71%",
+                "bar": "70%",
                 "id": 3,
-                "level": "Advanced",
+                "level": "Competant",
                 "title": "Javascript",
               },
               Object {
-                "bar": "71%",
+                "bar": "70%",
                 "id": 4,
                 "level": "Advanced",
                 "title": "HTML5",

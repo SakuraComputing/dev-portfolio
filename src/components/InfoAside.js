@@ -10,8 +10,8 @@ export const InfoAside = (props) => (
                     </li>
                     <li><i className="fa fa-envelope-o"></i><span className="sr-only">Email:</span><a
                         href="#">{props.infoaside.email}</a></li>
-                    <li><i className="fa fa-link"></i><span className="sr-only">Website:</span><a
-                        href="#">{props.infoaside.website}</a></li>
+                    {/* <li><i className="fa fa-link"></i><span className="sr-only">Website:</span><a
+                        href="#">{props.infoaside.website}</a></li> */}
                 </ul>
             </div>
         </div>

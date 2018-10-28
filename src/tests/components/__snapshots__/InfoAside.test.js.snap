@@ -44,21 +44,6 @@ exports[`InfoAside Section should render correctly 1`] = `
             a@e.gmail.com
           </a>
         </li>
-        <li>
-          <i
-            className="fa fa-link"
-          />
-          <span
-            className="sr-only"
-          >
-            Website:
-          </span>
-          <a
-            href="#"
-          >
-            www.test.com
-          </a>
-        </li>
       </ul>
     </div>
   </div>

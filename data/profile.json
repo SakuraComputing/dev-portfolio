@@ -21,37 +21,37 @@
     }
   },
   "about": {
-    "text": "I'm a front end developer with over twenty years of experience in software delivery.  Most recently I have cross trained into Javascript Front End Development using mainly ReactJS but have experience in other frameworks such as AngularJS along with a grounding in vanilla javascript I also possess good styling skills in HTML5/CSS3 and JQuery. Now focusing toward a TDD approach to supply quality software products to the end customer."
+    "text": "I'm a front end developer with over twenty years of experience in software delivery.  Most recently I have cross trained into Javascript Front End Development using mainly ReactJS but have experience in other frameworks such as AngularJS along with a grounding in vanilla javascript I also possess good styling skills in HTML5/CSS3.  Now focusing toward a TDD approach to supply quality software products to the end customer."
   },
   "infoaside": {
     "location": "Manchester, UK",
     "email": "ewan.bauld@gmail.com",
-    "website": "www.ewan.bauld.com"
+    "website": ""
   },
   "skillsaside": [
     {
       "id": 1,
       "title": "ReactJS",
-      "level": "Expert",
-      "bar": "80%"
-    },
-    {
-      "id": 2,
-      "title": "CSS3",
       "level": "Advanced",
       "bar": "70%"
     },
     {
+      "id": 2,
+      "title": "CSS3",
+      "level": "Competant",
+      "bar": "60%"
+    },
+    {
       "id": 3,
       "title": "Javascript",
-      "level": "Advanced",
-      "bar": "71%"
+      "level": "Competant",
+      "bar": "70%"
     },
     {
       "id": 4,
       "title": "HTML5",
       "level": "Advanced",
-      "bar": "71%"
+      "bar": "70%"
     },
     {
       "id": 5,
