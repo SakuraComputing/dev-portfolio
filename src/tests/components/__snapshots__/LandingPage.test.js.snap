@@ -39,7 +39,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
         <About
           about={
             Object {
-              "text": "I'm a front end developer with over twenty years of experience in software delivery.  Most recently I have cross trained into Javascript Front End Development using mainly ReactJS but have experience in other frameworks such as AngularJS along with a grounding in vanilla javascript I also possess good styling skills in HTML5/CSS3.  Now focusing toward a TDD approach to supply quality software products to the end customer.",
+              "text": "I'm a front end developer with over twenty years of experience in software delivery.  Most recently I have cross trained into Javascript Front End Development using mainly ReactJS but have experience in other frameworks such as Vue and AngularJS along with a grounding in vanilla javascript I also possess good styling skills in HTML5/CSS3.  Now focusing toward a TDD approach to supply quality software products to the end customer.",
             }
           }
         />
@@ -47,7 +47,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
           latestproject={
             Object {
               "description1": "An application I wrote that allows developers to connect with one another.",
-              "description2": "I used ReactJS, Express, Mongo and Node for the API layer (MERN) and used Bootstrap for the styling and used Heroku to host the site.",
+              "description2": "I used ReactJS, Express, Mongo and Node for the API layer (MERN) then Bootstrap for the styling.",
               "exampleURL": "http://devconnector-app.herokuapp.com/",
               "imagePath": "assets/images/projects/project-main.png",
               "synopsis": "A Facebook for Developers",
@@ -71,7 +71,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
                 "exampleURL": "",
                 "id": 2,
                 "imagePath": "assets/images/projects/meanhotel.png",
-                "synopsis": "A Facebook for Developers",
+                "synopsis": "Side project application",
                 "title": "Mean Hotel Application",
               },
               Object {
@@ -94,7 +94,7 @@ exports[`Landing Page should render Expense dashboard page correctly 1`] = `
               },
               Object {
                 "description1": "Example live application I wrote for LKC using React JS and Firebase.",
-                "description2": "Written in ReactJS with a Firebase Datastore. SASS Styling",
+                "description2": "Written in ReactJS and Redux with a Firebase Datastore. SASS Styling",
                 "exampleURL": "https://liverpool-kendo-club.herokuapp.com/",
                 "id": 5,
                 "imagePath": "assets/images/projects/lkc.png",
