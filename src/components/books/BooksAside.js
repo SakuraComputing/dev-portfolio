@@ -10,7 +10,7 @@ class BooksAside extends Component {
         let singleBook;
 
         if(books.length > 0) {
-            singleBook = books.map(book => (
+            singleBook = books.reverse().map(book => (
                 <Book key={book.id} book={book}/>
             ));
         }
